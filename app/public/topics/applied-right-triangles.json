@@ -1,0 +1,1465 @@
+{
+  "id": "applied-right-triangles",
+  "name": "Problemes de triangles rectangles",
+  "description": "Problemes aplicats de trigonometria (pals, escales, rampes, ombres, angles d'elevació i depressió).",
+  "questions": [
+    {
+      "id": "trig-001",
+      "statement": "Un pal d'una bandera de 8 m de longitud està recolzat formant un angle de 60° amb el terra. A quina alçada arriba l'extrem superior del pal?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 60.0,
+        "labels": {
+          "hypotenuse": "8 m",
+          "opposite": "?",
+          "angle": "60°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "terra",
+          "top": "extrem"
+        }
+      },
+      "options": [
+        "$4\\ \\text{m}$",
+        "$6.93\\ \\text{m}$",
+        "$13.86\\ \\text{m}$",
+        "$9.24\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La hipotenusa és el pal (8 m) i l'alçada és el catet oposat a l'angle de 60°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(60°) = \\dfrac{\\text{alçada}}{\\text{pal}}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{alçada} = 8 \\cdot \\sin(60°) = 4\\sqrt{3} \\approx 6.93\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 60.0,
+            "labels": {
+              "hypotenuse": "8 m",
+              "opposite": "6.93 m",
+              "angle": "60°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "terra",
+              "top": "extrem"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-002",
+      "statement": "Una escala de 5 m està recolzada contra una paret formant un angle de 70° amb el terra. Fins a quina alçada de la paret arriba l'escala?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 70.0,
+        "labels": {
+          "hypotenuse": "5 m",
+          "opposite": "?",
+          "angle": "70°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "terra",
+          "rightAngle": "peu",
+          "top": "alt"
+        }
+      },
+      "options": [
+        "$1.71\\ \\text{m}$",
+        "$13.74\\ \\text{m}$",
+        "$4.7\\ \\text{m}$",
+        "$5.32\\ \\text{m}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'escala és la hipotenusa (5 m). L'alçada que busquem és el catet oposat a l'angle de 70°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(70°) = \\dfrac{\\text{alçada}}{5}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{alçada} = 5 \\cdot \\sin(70°) \\approx 5 \\cdot 0{,}9397 \\approx 4.7\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 70.0,
+            "labels": {
+              "hypotenuse": "5 m",
+              "opposite": "4.7 m",
+              "angle": "70°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "terra",
+              "rightAngle": "peu",
+              "top": "alt"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-003",
+      "statement": "Una escala de 6 m està recolzada en una paret formant un angle de 65° amb el terra. A quina distància del peu de la paret s'ha posat la base de l'escala?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 65.0,
+        "labels": {
+          "hypotenuse": "6 m",
+          "adjacent": "?",
+          "angle": "65°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "peu escala",
+          "rightAngle": "paret",
+          "top": "alt"
+        }
+      },
+      "options": [
+        "$2.54\\ \\text{m}$",
+        "$5.44\\ \\text{m}$",
+        "$12.87\\ \\text{m}$",
+        "$14.2\\ \\text{m}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'escala és la hipotenusa (6 m). La distància al peu de la paret és el catet contigu a l'angle de 65°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(65°) = \\dfrac{\\text{distància}}{6}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{distància} = 6 \\cdot \\cos(65°) \\approx 6 \\cdot 0{,}4226 \\approx 2.54\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 65.0,
+            "labels": {
+              "hypotenuse": "6 m",
+              "adjacent": "2.54 m",
+              "angle": "65°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "peu escala",
+              "rightAngle": "paret",
+              "top": "alt"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-004",
+      "statement": "Una tirolina té 120 m de cable i baixa amb un pendent que forma un angle de 25° amb l'horitzontal. Quina és la diferència d'alçada entre el punt de sortida i el d'arribada?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 25.0,
+        "labels": {
+          "hypotenuse": "120 m",
+          "opposite": "?",
+          "angle": "25°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "arribada",
+          "top": "sortida"
+        }
+      },
+      "options": [
+        "$108.76\\ \\text{m}$",
+        "$55.96\\ \\text{m}$",
+        "$283.94\\ \\text{m}$",
+        "$50.71\\ \\text{m}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El cable és la hipotenusa (120 m). La diferència d'alçada és el catet oposat a l'angle de 25°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(25°) = \\dfrac{\\Delta h}{120}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\Delta h = 120 \\cdot \\sin(25°) \\approx 120 \\cdot 0{,}4226 \\approx 50.71\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 25.0,
+            "labels": {
+              "hypotenuse": "120 m",
+              "opposite": "50.71 m",
+              "angle": "25°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "arribada",
+              "top": "sortida"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-005",
+      "statement": "Un teleféric puja amb un cable de 300 m de longitud que forma un angle de 40° amb l'horitzontal. Quina distància horitzontal es recorre?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 40.0,
+        "labels": {
+          "hypotenuse": "300 m",
+          "adjacent": "?",
+          "angle": "40°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "base",
+          "top": "cim"
+        }
+      },
+      "options": [
+        "$192.84\\ \\text{m}$",
+        "$229.81\\ \\text{m}$",
+        "$251.73\\ \\text{m}$",
+        "$391.62\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El cable és la hipotenusa (300 m). La distància horitzontal és el catet contigu a l'angle de 40°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(40°) = \\dfrac{\\text{horitzontal}}{300}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{horitzontal} = 300 \\cdot \\cos(40°) \\approx 300 \\cdot 0{,}7660 \\approx 229.81\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 40.0,
+            "labels": {
+              "hypotenuse": "300 m",
+              "adjacent": "229.81 m",
+              "angle": "40°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "base",
+              "top": "cim"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-006",
+      "statement": "Un arbre projecta una ombra de 12 m quan els raigs del sol formen un angle de 35° amb el terra. Quina és l'alçada de l'arbre?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 35.0,
+        "labels": {
+          "adjacent": "12 m",
+          "opposite": "?",
+          "angle": "35°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "sol",
+          "rightAngle": "peu arbre",
+          "top": "cim arbre"
+        }
+      },
+      "options": [
+        "$8.4\\ \\text{m}$",
+        "$6.88\\ \\text{m}$",
+        "$17.14\\ \\text{m}$",
+        "$14.65\\ \\text{m}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'ombra (12 m) és el catet contigu a l'angle de 35°. Evitem la tangent: primer trobem la hipotenusa amb el cosinus i després l'alçada amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(35°) = \\dfrac{12}{L} \\;\\Rightarrow\\; L = \\dfrac{12}{\\cos(35°)} \\approx \\dfrac{12}{0{,}8192} \\approx 14{,}65\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{arbre} = L \\cdot \\sin(35°) \\approx 14{,}65 \\cdot 0{,}5736 \\approx 8.4\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 35.0,
+            "labels": {
+              "adjacent": "12 m",
+              "opposite": "8.4 m",
+              "angle": "35°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "sol",
+              "rightAngle": "peu arbre",
+              "top": "cim arbre"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-007",
+      "statement": "Des d'un punt del terra, l'angle d'elevació fins al cim d'un edifici és de 52°. Si el punt està a 40 m de la base de l'edifici, quina alçada té l'edifici?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 52.0,
+        "labels": {
+          "adjacent": "40 m",
+          "opposite": "?",
+          "angle": "52°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "observador",
+          "rightAngle": "base",
+          "top": "cim"
+        }
+      },
+      "options": [
+        "$31.52\\ \\text{m}$",
+        "$51.2\\ \\text{m}$",
+        "$31.25\\ \\text{m}$",
+        "$24.63\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La distància al peu (40 m) és el catet contigu a l'angle. Trobem primer la hipotenusa (línia de visió) amb el cosinus i després l'alçada amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(52°) = \\dfrac{40}{L} \\;\\Rightarrow\\; L = \\dfrac{40}{\\cos(52°)} \\approx \\dfrac{40}{0{,}6157} \\approx 64{,}97\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "h = L \\cdot \\sin(52°) \\approx 64{,}97 \\cdot 0{,}7880 \\approx 51.2\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 52.0,
+            "labels": {
+              "adjacent": "40 m",
+              "opposite": "51.2 m",
+              "angle": "52°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "observador",
+              "rightAngle": "base",
+              "top": "cim"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-008",
+      "statement": "Una rampa d'accés salva un desnivell d'1,2 m amb una inclinació de 15° respecte a l'horitzontal. Quina longitud té la rampa?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 15.0,
+        "labels": {
+          "opposite": "1,2 m",
+          "hypotenuse": "?",
+          "angle": "15°"
+        },
+        "highlight": [
+          "hypotenuse"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "inici",
+          "rightAngle": "peu",
+          "top": "final"
+        }
+      },
+      "options": [
+        "$0.31\\ \\text{m}$",
+        "$4.48\\ \\text{m}$",
+        "$4.64\\ \\text{m}$",
+        "$1.24\\ \\text{m}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El desnivell (1,2 m) és el catet oposat a l'angle de 15°. La longitud de la rampa és la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(15°) = \\dfrac{1{,}2}{L}"
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\dfrac{1{,}2}{\\sin(15°)} \\approx \\dfrac{1{,}2}{0{,}2588} \\approx 4.64\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 15.0,
+            "labels": {
+              "opposite": "1,2 m",
+              "hypotenuse": "4.64 m",
+              "angle": "15°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "inici",
+              "rightAngle": "peu",
+              "top": "final"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-009",
+      "statement": "Una persona fa volar un estel que està a 25 m d'alçada. El fil forma un angle de 50° amb el terra. Quina és la longitud del fil (suposant que està tens i recte)?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 50.0,
+        "labels": {
+          "opposite": "25 m",
+          "hypotenuse": "?",
+          "angle": "50°"
+        },
+        "highlight": [
+          "hypotenuse"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "persona",
+          "top": "estel"
+        }
+      },
+      "options": [
+        "$19.15\\ \\text{m}$",
+        "$20.98\\ \\text{m}$",
+        "$16.07\\ \\text{m}$",
+        "$32.64\\ \\text{m}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada (25 m) és el catet oposat a l'angle de 50°. El fil és la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(50°) = \\dfrac{25}{L}"
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\dfrac{25}{\\sin(50°)} \\approx \\dfrac{25}{0{,}7660} \\approx 32.64\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 50.0,
+            "labels": {
+              "opposite": "25 m",
+              "hypotenuse": "32.64 m",
+              "angle": "50°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "persona",
+              "top": "estel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-010",
+      "statement": "Un cable tensor subjecta una antena pel seu extrem superior, situat a 18 m d'alçada. El cable arriba al terra formant un angle de 55° amb l'horitzontal. Quina és la longitud del cable?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 55.0,
+        "labels": {
+          "opposite": "18 m",
+          "hypotenuse": "?",
+          "angle": "55°"
+        },
+        "highlight": [
+          "hypotenuse"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "ancoratge",
+          "rightAngle": "peu antena",
+          "top": "cim antena"
+        }
+      },
+      "options": [
+        "$21.97\\ \\text{m}$",
+        "$12.6\\ \\text{m}$",
+        "$14.74\\ \\text{m}$",
+        "$31.38\\ \\text{m}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada de l'antena (18 m) és el catet oposat a l'angle i el cable és la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(55°) = \\dfrac{18}{L}"
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\dfrac{18}{\\sin(55°)} \\approx \\dfrac{18}{0{,}8192} \\approx 21.97\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 55.0,
+            "labels": {
+              "opposite": "18 m",
+              "hypotenuse": "21.97 m",
+              "angle": "55°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "ancoratge",
+              "rightAngle": "peu antena",
+              "top": "cim antena"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-011",
+      "statement": "Des d'un vaixell, s'observa el capdamunt d'un far a 45 m d'alçada amb un angle d'elevació de 8°. A quina distància horitzontal es troba el vaixell del far?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 8.0,
+        "labels": {
+          "opposite": "45 m",
+          "adjacent": "?",
+          "angle": "8°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "vaixell",
+          "rightAngle": "peu far",
+          "top": "far"
+        }
+      },
+      "options": [
+        "$323.34\\ \\text{m}$",
+        "$320.19\\ \\text{m}$",
+        "$6.32\\ \\text{m}$",
+        "$44.56\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada del far (45 m) és el catet oposat a l'angle de 8°. Trobem primer la línia de visió (hipotenusa) amb el sinus i després la distància horitzontal amb el cosinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(8°) = \\dfrac{45}{L} \\;\\Rightarrow\\; L = \\dfrac{45}{\\sin(8°)} \\approx \\dfrac{45}{0{,}1392} \\approx 323{,}31\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "d = L \\cdot \\cos(8°) \\approx 323{,}31 \\cdot 0{,}9903 \\approx 320.19\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 8.0,
+            "labels": {
+              "opposite": "45 m",
+              "adjacent": "320.19 m",
+              "angle": "8°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "vaixell",
+              "rightAngle": "peu far",
+              "top": "far"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-012",
+      "statement": "Un avió segueix una trajectòria d'enlairament amb un angle constant de 12°. Quan ha recorregut 5000 m en horitzontal, a quina alçada es troba?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 12.0,
+        "labels": {
+          "adjacent": "5000 m",
+          "opposite": "?",
+          "angle": "12°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "pista",
+          "top": "avió"
+        }
+      },
+      "options": [
+        "$1039.56\\ \\text{m}$",
+        "$23523.15\\ \\text{m}$",
+        "$1062.78\\ \\text{m}$",
+        "$5111.7\\ \\text{m}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La distància horitzontal (5000 m) és el catet contigu a l'angle de 12°. Trobem primer la trajectòria (hipotenusa) amb el cosinus i després l'alçada amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(12°) = \\dfrac{5000}{L} \\;\\Rightarrow\\; L = \\dfrac{5000}{\\cos(12°)} \\approx \\dfrac{5000}{0{,}9781} \\approx 5111{,}87\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "h = L \\cdot \\sin(12°) \\approx 5111{,}87 \\cdot 0{,}2079 \\approx 1062.78\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 12.0,
+            "labels": {
+              "adjacent": "5000 m",
+              "opposite": "1062.78 m",
+              "angle": "12°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "pista",
+              "top": "avió"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-013",
+      "statement": "Un tobogán d'un parc infantil fa 4 m de llarg i està inclinat 45° respecte al terra. Quina alçada té el punt més alt del tobogán?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 45.0,
+        "labels": {
+          "hypotenuse": "4 m",
+          "opposite": "?",
+          "angle": "45°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "peu",
+          "top": "dalt"
+        }
+      },
+      "options": [
+        "$4\\ \\text{m}$",
+        "$2\\ \\text{m}$",
+        "$5.66\\ \\text{m}$",
+        "$2.83\\ \\text{m}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El tobogán és la hipotenusa (4 m). L'alçada és el catet oposat a l'angle de 45°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(45°) = \\dfrac{h}{4}"
+        },
+        {
+          "kind": "math",
+          "tex": "h = 4 \\cdot \\sin(45°) = 2\\sqrt{2} \\approx 2.83\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 45.0,
+            "labels": {
+              "hypotenuse": "4 m",
+              "opposite": "2.83 m",
+              "angle": "45°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "peu",
+              "top": "dalt"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-014",
+      "statement": "La rampa de càrrega d'un camió fa 3 m de llarg i està inclinada 20°. Quina és l'alçada del remolc des del terra?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 20.0,
+        "labels": {
+          "hypotenuse": "3 m",
+          "opposite": "?",
+          "angle": "20°"
+        },
+        "highlight": [
+          "opposite"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "terra",
+          "top": "remolc"
+        }
+      },
+      "options": [
+        "$1.03\\ \\text{m}$",
+        "$2.82\\ \\text{m}$",
+        "$1.09\\ \\text{m}$",
+        "$8.77\\ \\text{m}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La rampa és la hipotenusa (3 m). L'alçada del remolc és el catet oposat a l'angle de 20°."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(20°) = \\dfrac{h}{3}"
+        },
+        {
+          "kind": "math",
+          "tex": "h = 3 \\cdot \\sin(20°) \\approx 3 \\cdot 0{,}3420 \\approx 1.03\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 20.0,
+            "labels": {
+              "hypotenuse": "3 m",
+              "opposite": "1.03 m",
+              "angle": "20°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "terra",
+              "top": "remolc"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-015",
+      "statement": "Un funicular recorre 200 m sobre un pendent de 30°. Quina distància horitzontal avança?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 30.0,
+        "labels": {
+          "hypotenuse": "200 m",
+          "adjacent": "?",
+          "angle": "30°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "base",
+          "top": "cim"
+        }
+      },
+      "options": [
+        "$100\\ \\text{m}$",
+        "$173.21\\ \\text{m}$",
+        "$115.47\\ \\text{m}$",
+        "$230.94\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La via del funicular és la hipotenusa (200 m). La distància horitzontal és el catet contigu a l'angle."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(30°) = \\dfrac{d}{200}"
+        },
+        {
+          "kind": "math",
+          "tex": "d = 200 \\cdot \\cos(30°) = 100\\sqrt{3} \\approx 173.21\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 30.0,
+            "labels": {
+              "hypotenuse": "200 m",
+              "adjacent": "173.21 m",
+              "angle": "30°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "base",
+              "top": "cim"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-016",
+      "statement": "Una rampa fa 10 m de llarg i salva un desnivell d'1,5 m. Quin angle forma la rampa amb l'horitzontal?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 8.626926558678639,
+        "labels": {
+          "opposite": "1,5 m",
+          "hypotenuse": "10 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "inici",
+          "top": "final"
+        }
+      },
+      "options": [
+        "$81.4°$",
+        "$8.5°$",
+        "$8.6°$",
+        "$81.5°$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Coneixem el catet oposat (1,5 m) i la hipotenusa (10 m). Utilitzem el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(\\alpha) = \\dfrac{1{,}5}{10} = 0{,}15"
+        },
+        {
+          "kind": "math",
+          "tex": "\\alpha = \\arcsin(0{,}15) \\approx 8.6°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 8.626926558678639,
+            "labels": {
+              "opposite": "1,5 m",
+              "hypotenuse": "10 m",
+              "angle": "8.6°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "inici",
+              "top": "final"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-017",
+      "statement": "Un edifici de 30 m d'alçada s'observa des d'un punt situat a 40 m de la seva base. Quin és l'angle d'elevació des del punt fins al cim de l'edifici?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 36.86989764584402,
+        "labels": {
+          "opposite": "30 m",
+          "adjacent": "40 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "observador",
+          "top": "cim"
+        }
+      },
+      "options": [
+        "$36.9°$",
+        "$53.1°$",
+        "$48.6°$",
+        "$58.1°$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Coneixem els dos catets (30 m i 40 m). Trobem primer la hipotenusa amb el teorema de Pitàgores i després l'angle amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\sqrt{30^2 + 40^2} = \\sqrt{900 + 1600} = \\sqrt{2500} = 50\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(\\alpha) = \\dfrac{30}{50} = 0{,}6 \\;\\Rightarrow\\; \\alpha = \\arcsin(0{,}6) \\approx 36.9°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 36.86989764584402,
+            "labels": {
+              "opposite": "30 m",
+              "adjacent": "40 m",
+              "angle": "36.9°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "observador",
+              "top": "cim"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-018",
+      "statement": "Una escala de 4 m recolzada a una paret té el peu a 1,5 m de la paret. Quin angle forma l'escala amb el terra?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 67.97568716295784,
+        "labels": {
+          "adjacent": "1,5 m",
+          "hypotenuse": "4 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "terra",
+          "rightAngle": "paret"
+        }
+      },
+      "options": [
+        "$22°$",
+        "$20.6°$",
+        "$32°$",
+        "$68°$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Coneixem el catet contigu (1,5 m) i la hipotenusa (4 m). Utilitzem el cosinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(\\alpha) = \\dfrac{1{,}5}{4} = 0{,}375"
+        },
+        {
+          "kind": "math",
+          "tex": "\\alpha = \\arccos(0{,}375) \\approx 68°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 67.97568716295784,
+            "labels": {
+              "adjacent": "1,5 m",
+              "hypotenuse": "4 m",
+              "angle": "68°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "terra",
+              "rightAngle": "paret"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-019",
+      "statement": "Un tram de carretera té un pendent del 8%, que significa que per cada 100 m en horitzontal puja 8 m. Quin angle forma aquest tram amb l'horitzontal?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 4.573921259900861,
+        "labels": {
+          "opposite": "8 m",
+          "adjacent": "100 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "inici",
+          "top": "puja"
+        }
+      },
+      "options": [
+        "$8°$",
+        "$4.6°$",
+        "$38.7°$",
+        "$45°$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Un 8% de pendent vol dir 8 m d'alçada per cada 100 m en horitzontal. Trobem primer la hipotenusa amb Pitàgores i després l'angle amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\sqrt{100^2 + 8^2} = \\sqrt{10000 + 64} = \\sqrt{10064} \\approx 100{,}32\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(\\alpha) = \\dfrac{8}{100{,}32} \\approx 0{,}0797 \\;\\Rightarrow\\; \\alpha = \\arcsin(0{,}0797) \\approx 4.6°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 4.573921259900861,
+            "labels": {
+              "opposite": "8 m",
+              "adjacent": "100 m",
+              "angle": "4.6°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "inici",
+              "top": "puja"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-020",
+      "statement": "Un cable tensor de 20 m subjecta el capdamunt d'un pal situat a 12 m d'alçada. Quin angle forma el cable amb el terra?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 36.86989764584402,
+        "labels": {
+          "opposite": "12 m",
+          "hypotenuse": "20 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "ancoratge",
+          "rightAngle": "peu pal",
+          "top": "cim pal"
+        }
+      },
+      "options": [
+        "$36.9°$",
+        "$53.1°$",
+        "$31°$",
+        "$58.1°$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada (12 m) és el catet oposat i el cable (20 m) és la hipotenusa. Utilitzem el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(\\alpha) = \\dfrac{12}{20} = 0{,}6"
+        },
+        {
+          "kind": "math",
+          "tex": "\\alpha = \\arcsin(0{,}6) \\approx 36.9°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 36.86989764584402,
+            "labels": {
+              "opposite": "12 m",
+              "hypotenuse": "20 m",
+              "angle": "36.9°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "ancoratge",
+              "rightAngle": "peu pal",
+              "top": "cim pal"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-021",
+      "statement": "Des d'una torre de vigilància de 60 m d'alçada, un vigilant observa un cotxe amb un angle de depressió de 28°. A quina distància horitzontal del peu de la torre es troba el cotxe?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 28.0,
+        "labels": {
+          "opposite": "60 m",
+          "adjacent": "?",
+          "angle": "28°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "cotxe",
+          "rightAngle": "peu torre",
+          "top": "vigilant"
+        }
+      },
+      "options": [
+        "$31.9\\ \\text{m}$",
+        "$127.8\\ \\text{m}$",
+        "$112.84\\ \\text{m}$",
+        "$52.98\\ \\text{m}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'angle de depressió des de dalt coincideix amb l'angle d'elevació des del cotxe (angles alterns). L'alçada de la torre (60 m) és el catet oposat a 28°. Trobem primer la línia de visió amb el sinus i després la distància horitzontal amb el cosinus."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(28°) = \\dfrac{60}{L} \\;\\Rightarrow\\; L = \\dfrac{60}{\\sin(28°)} \\approx \\dfrac{60}{0{,}4695} \\approx 127{,}80\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "d = L \\cdot \\cos(28°) \\approx 127{,}80 \\cdot 0{,}8829 \\approx 112.84\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 28.0,
+            "labels": {
+              "opposite": "60 m",
+              "adjacent": "112.84 m",
+              "angle": "28°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "cotxe",
+              "rightAngle": "peu torre",
+              "top": "vigilant"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-022",
+      "statement": "La bandera d'una ambaixada està hissada en un pal que forma un angle de 60° amb el terra. Si l'extrem del pal està a 5 m d'alçada, calcula la longitud del pal.",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 60.0,
+        "labels": {
+          "opposite": "5 m",
+          "hypotenuse": "?",
+          "angle": "60°"
+        },
+        "highlight": [
+          "hypotenuse"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "base",
+          "rightAngle": "terra",
+          "top": "extrem"
+        }
+      },
+      "options": [
+        "$4.33\\ \\text{m}$",
+        "$5.77\\ \\text{m}$",
+        "$5\\ \\text{m}$",
+        "$2.89\\ \\text{m}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada (5 m) és el catet oposat a l'angle de 60°. La longitud del pal és la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(60°) = \\dfrac{5}{L}"
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\dfrac{5}{\\sin(60°)} = \\dfrac{5}{\\frac{\\sqrt{3}}{2}} = \\dfrac{10\\sqrt{3}}{3} \\approx 5.77\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 60.0,
+            "labels": {
+              "opposite": "5 m",
+              "hypotenuse": "5.77 m",
+              "angle": "60°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "base",
+              "rightAngle": "terra",
+              "top": "extrem"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-023",
+      "statement": "Una cinta transportadora de 8 m fa un angle de 22° amb el terra. Quina distància horitzontal cobreix?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 22.0,
+        "labels": {
+          "hypotenuse": "8 m",
+          "adjacent": "?",
+          "angle": "22°"
+        },
+        "highlight": [
+          "adjacent"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "entrada",
+          "top": "sortida"
+        }
+      },
+      "options": [
+        "$7.42\\ \\text{m}$",
+        "$3\\ \\text{m}$",
+        "$3.23\\ \\text{m}$",
+        "$8.63\\ \\text{m}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La cinta és la hipotenusa (8 m). La distància horitzontal és el catet contigu a l'angle."
+        },
+        {
+          "kind": "math",
+          "tex": "\\cos(22°) = \\dfrac{d}{8}"
+        },
+        {
+          "kind": "math",
+          "tex": "d = 8 \\cdot \\cos(22°) \\approx 8 \\cdot 0{,}9272 \\approx 7.42\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 22.0,
+            "labels": {
+              "hypotenuse": "8 m",
+              "adjacent": "7.42 m",
+              "angle": "22°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "entrada",
+              "top": "sortida"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-024",
+      "statement": "Una muntanya té 750 m d'alçada. Un excursionista es troba a 1200 m en horitzontal del centre de la muntanya. Amb quin angle d'elevació veu el cim?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 32.005383208083494,
+        "labels": {
+          "opposite": "750 m",
+          "adjacent": "1200 m",
+          "angle": "?"
+        },
+        "highlight": [],
+        "vertexLabels": {
+          "acuteAngle": "excursionista",
+          "top": "cim"
+        }
+      },
+      "options": [
+        "$58°$",
+        "$32°$",
+        "$38.7°$",
+        "$45°$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Coneixem els dos catets: l'alçada de la muntanya (750 m) i la distància horitzontal (1200 m). Trobem primer la línia de visió amb Pitàgores i després l'angle amb el sinus."
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\sqrt{1200^2 + 750^2} = \\sqrt{1\\,440\\,000 + 562\\,500} = \\sqrt{2\\,002\\,500} \\approx 1414{,}96\\ \\text{m}"
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(\\alpha) = \\dfrac{750}{1414{,}96} \\approx 0{,}5301 \\;\\Rightarrow\\; \\alpha = \\arcsin(0{,}5301) \\approx 32°"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 32.005383208083494,
+            "labels": {
+              "opposite": "750 m",
+              "adjacent": "1200 m",
+              "angle": "32°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "excursionista",
+              "top": "cim"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "trig-025",
+      "statement": "Un globus aerostàtic està lligat al terra per una corda tensa. El globus es troba a 90 m d'alçada i la corda forma un angle de 38° amb el terra. Quina és la longitud de la corda?",
+      "graphic": {
+        "kind": "applied-triangle",
+        "angleDeg": 38.0,
+        "labels": {
+          "opposite": "90 m",
+          "hypotenuse": "?",
+          "angle": "38°"
+        },
+        "highlight": [
+          "hypotenuse"
+        ],
+        "vertexLabels": {
+          "acuteAngle": "ancoratge",
+          "top": "globus"
+        }
+      },
+      "options": [
+        "$115.19\\ \\text{m}$",
+        "$55.41\\ \\text{m}$",
+        "$114.21\\ \\text{m}$",
+        "$146.18\\ \\text{m}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'alçada (90 m) és el catet oposat a l'angle de 38° i la corda és la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "\\sin(38°) = \\dfrac{90}{L}"
+        },
+        {
+          "kind": "math",
+          "tex": "L = \\dfrac{90}{\\sin(38°)} \\approx \\dfrac{90}{0{,}6157} \\approx 146.18\\ \\text{m}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "applied-triangle",
+            "angleDeg": 38.0,
+            "labels": {
+              "opposite": "90 m",
+              "hypotenuse": "146.18 m",
+              "angle": "38°"
+            },
+            "highlight": [],
+            "vertexLabels": {
+              "acuteAngle": "ancoratge",
+              "top": "globus"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

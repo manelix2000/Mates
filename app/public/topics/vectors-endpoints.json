@@ -1,0 +1,732 @@
+{
+  "id": "vectors-endpoints",
+  "name": "Vectors — coordenades d'un extrem (A o B)",
+  "description": "Troba les coordenades del punt A o del punt B coneixent el vector AB i l'altre extrem. Recorda: AB = B − A, per tant A = B − AB i B = A + AB.",
+  "questions": [
+    {
+      "id": "ve-01",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-1, 3)$ i $B=(5, 2)$.",
+      "options": [
+        "(-6, 1)",
+        "(4, 5)",
+        "(6, 5)",
+        "(6, -1)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (5, 2) - (-1, 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (5-(-1),\\ 2-(3)) = (6,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-02",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(2, 3)$ i $B=(1, 4)$.",
+      "options": [
+        "(-1, 7)",
+        "(1, -1)",
+        "(-1, 1)",
+        "(3, 7)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (1, 4) - (2, 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (1-(2),\\ 4-(3)) = (-1,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-03",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-4, 1)$ i $B=(-3, 3)$.",
+      "options": [
+        "(-7, 4)",
+        "(1, 4)",
+        "(-1, -2)",
+        "(1, 2)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (-3, 3) - (-4, 1)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (-3-(-4),\\ 3-(1)) = (1,\\ 2)"
+        }
+      ]
+    },
+    {
+      "id": "ve-04",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(0, 2)$ i $A=(-3, 5)$.",
+      "options": [
+        "(-3, 3)",
+        "(-4, 8)",
+        "(-3, 7)",
+        "(-5, 9)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-3, 5) + (0, 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-3+(0),\\ 5+(2)) = (-3,\\ 7)"
+        }
+      ]
+    },
+    {
+      "id": "ve-05",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(1, 0)$ i $A=(4, 6)$.",
+      "options": [
+        "(3, 6)",
+        "(4, 7)",
+        "(3, 8)",
+        "(5, 6)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (4, 6) + (1, 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (4+(1),\\ 6+(0)) = (5,\\ 6)"
+        }
+      ]
+    },
+    {
+      "id": "ve-06",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(2, 4)$ i $A=(-2, 4)$.",
+      "options": [
+        "(-4, 0)",
+        "(-4, 8)",
+        "(0, 0)",
+        "(0, 8)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-2, 4) + (2, 4)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-2+(2),\\ 4+(4)) = (0,\\ 8)"
+        }
+      ]
+    },
+    {
+      "id": "ve-07",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(3, -2)$ i $B=(0, 0)$.",
+      "options": [
+        "(-3, -2)",
+        "(3, -2)",
+        "(-3, 2)",
+        "(-2, 1)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (0, 0) - (3, -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (0-(3),\\ 0-(-2)) = (-3,\\ 2)"
+        }
+      ]
+    },
+    {
+      "id": "ve-08",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-2, -5)$ i $B=(4, 1)$.",
+      "options": [
+        "(2, -4)",
+        "(6, -4)",
+        "(6, 6)",
+        "(-6, -6)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (4, 1) - (-2, -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (4-(-2),\\ 1-(-5)) = (6,\\ 6)"
+        }
+      ]
+    },
+    {
+      "id": "ve-09",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(5, 0)$ i $B=(-1, 3)$.",
+      "options": [
+        "(-6, 3)",
+        "(6, -3)",
+        "(4, 3)",
+        "(-5, 2)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (-1, 3) - (5, 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (-1-(5),\\ 3-(0)) = (-6,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "ve-10",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-3, -3)$ i $B=(2, -4)$.",
+      "options": [
+        "(-5, 1)",
+        "(5, -7)",
+        "(5, -1)",
+        "(-1, -7)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (2, -4) - (-3, -3)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (2-(-3),\\ -4-(-3)) = (5,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-11",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(4, -1)$ i $B=(6, 2)$.",
+      "options": [
+        "(-2, -3)",
+        "(10, 1)",
+        "(2, 1)",
+        "(2, 3)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (6, 2) - (4, -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (6-(4),\\ 2-(-1)) = (2,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "ve-12",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-1, -2)$ i $B=(-5, -1)$.",
+      "options": [
+        "(-4, -3)",
+        "(4, -1)",
+        "(-6, -3)",
+        "(-4, 1)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (-5, -1) - (-1, -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (-5-(-1),\\ -1-(-2)) = (-4,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-13",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(0, -4)$ i $B=(3, 2)$.",
+      "options": [
+        "(4, 5)",
+        "(3, -2)",
+        "(3, 6)",
+        "(-3, -6)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (3, 2) - (0, -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (3-(0),\\ 2-(-4)) = (3,\\ 6)"
+        }
+      ]
+    },
+    {
+      "id": "ve-14",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(6, 3)$ i $B=(-2, 5)$.",
+      "options": [
+        "(8, -2)",
+        "(-8, 8)",
+        "(4, 8)",
+        "(-8, 2)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (-2, 5) - (6, 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (-2-(6),\\ 5-(3)) = (-8,\\ 2)"
+        }
+      ]
+    },
+    {
+      "id": "ve-15",
+      "statement": "Calcula les coordenades del punt $A$ si $\\vec{AB}=(-5, 2)$ i $B=(0, -3)$.",
+      "options": [
+        "(5, -5)",
+        "(-5, -1)",
+        "(5, -1)",
+        "(-5, 5)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per definició, $\\vec{AB}=B-A$. Aïllant A obtenim $A=B-\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "A = B - \\vec{AB} = (0, -3) - (-5, 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Restem component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "A = (0-(-5),\\ -3-(2)) = (5,\\ -5)"
+        }
+      ]
+    },
+    {
+      "id": "ve-16",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(3, 5)$ i $A=(1, -2)$.",
+      "options": [
+        "(-2, 3)",
+        "(4, 3)",
+        "(4, -7)",
+        "(-2, -7)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (1, -2) + (3, 5)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (1+(3),\\ -2+(5)) = (4,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "ve-17",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(-2, 4)$ i $A=(6, -1)$.",
+      "options": [
+        "(8, -5)",
+        "(8, 3)",
+        "(4, -5)",
+        "(4, 3)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (6, -1) + (-2, 4)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (6+(-2),\\ -1+(4)) = (4,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "ve-18",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(4, -3)$ i $A=(-5, 2)$.",
+      "options": [
+        "(-9, 5)",
+        "(-9, -1)",
+        "(-1, -1)",
+        "(-1, 5)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-5, 2) + (4, -3)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-5+(4),\\ 2+(-3)) = (-1,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-19",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(-1, -1)$ i $A=(0, 0)$.",
+      "options": [
+        "(1, -1)",
+        "(-1, 1)",
+        "(1, 1)",
+        "(-1, -1)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (0, 0) + (-1, -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (0+(-1),\\ 0+(-1)) = (-1,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-20",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(5, -2)$ i $A=(3, 3)$.",
+      "options": [
+        "(8, 1)",
+        "(-2, 5)",
+        "(8, 5)",
+        "(-2, 1)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (3, 3) + (5, -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (3+(5),\\ 3+(-2)) = (8,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-21",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(-4, 0)$ i $A=(-2, -6)$.",
+      "options": [
+        "(-6, -6)",
+        "(-7, -5)",
+        "(-8, -4)",
+        "(2, -6)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-2, -6) + (-4, 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-2+(-4),\\ -6+(0)) = (-6,\\ -6)"
+        }
+      ]
+    },
+    {
+      "id": "ve-22",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(0, 3)$ i $A=(7, -4)$.",
+      "options": [
+        "(7, -1)",
+        "(5, 1)",
+        "(6, 0)",
+        "(7, -7)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (7, -4) + (0, 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (7+(0),\\ -4+(3)) = (7,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "ve-23",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(2, -5)$ i $A=(-3, 1)$.",
+      "options": [
+        "(-5, 6)",
+        "(-5, -4)",
+        "(-1, 6)",
+        "(-1, -4)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-3, 1) + (2, -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-3+(2),\\ 1+(-5)) = (-1,\\ -4)"
+        }
+      ]
+    },
+    {
+      "id": "ve-24",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(-6, 2)$ i $A=(4, 4)$.",
+      "options": [
+        "(-2, 2)",
+        "(10, 6)",
+        "(-2, 6)",
+        "(10, 2)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (4, 4) + (-6, 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (4+(-6),\\ 4+(2)) = (-2,\\ 6)"
+        }
+      ]
+    },
+    {
+      "id": "ve-25",
+      "statement": "Troba les coordenades del punt $B$ si $\\vec{AB}=(1, -3)$ i $A=(-1, -1)$.",
+      "options": [
+        "(0, 2)",
+        "(0, -4)",
+        "(-2, 2)",
+        "(-2, -4)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Com que $\\vec{AB}=B-A$, aïllem B: $B=A+\\vec{AB}$."
+        },
+        {
+          "kind": "math",
+          "tex": "B = A + \\vec{AB} = (-1, -1) + (1, -3)"
+        },
+        {
+          "kind": "text",
+          "text": "Sumem component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "B = (-1+(1),\\ -1+(-3)) = (0,\\ -4)"
+        }
+      ]
+    }
+  ]
+}

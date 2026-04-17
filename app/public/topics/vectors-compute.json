@@ -1,0 +1,780 @@
+{
+  "id": "vectors-compute",
+  "name": "Vectors — suma i resta (càlcul)",
+  "description": "Calcula analíticament la suma o la diferència de dos vectors donats pels seus punts o per les seves components.",
+  "questions": [
+    {
+      "id": "vc-01",
+      "statement": "Donats els punts $A=(4, -2)$, $B=(4, 4)$, $C=(-4, 3)$ i $D=(-2, -4)$, calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(2, 1)",
+        "(-2, 1)",
+        "(2, -1)",
+        "(-2, 13)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-4,\\ 4-(-2)) = (0,\\ 6)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-2-(-4),\\ -4-3) = (2,\\ -7)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (0+2,\\ 6+(-7)) = (2,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-02",
+      "statement": "Donats els punts $A=(3, -3)$, $B=(4, -4)$, $C=(1, 4)$ i $D=(4, 4)$, calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(2, 1)",
+        "(4, -1)",
+        "(-2, -1)",
+        "(-2, 1)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-3,\\ -4-(-3)) = (1,\\ -1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (4-1,\\ 4-4) = (3,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (1-3,\\ -1-0) = (-2,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-03",
+      "statement": "Donats els punts $A=(-1, -1)$, $B=(0, -4)$, $C=(-3, 4)$ i $D=(3, 4)$, calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(7, -3)",
+        "(-5, -3)",
+        "(-5, 3)",
+        "(5, 3)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (0-(-1),\\ -4-(-1)) = (1,\\ -3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-(-3),\\ 4-4) = (6,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (6-1,\\ 0-(-3)) = (5,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-04",
+      "statement": "Donats els punts $A=(1, 4)$, $B=(4, -1)$, $C=(0, 3)$ i $D=(4, 4)$, calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(-1, -6)",
+        "(7, -4)",
+        "(-7, 4)",
+        "(7, 4)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-1,\\ -1-4) = (3,\\ -5)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (4-0,\\ 4-3) = (4,\\ 1)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (3+4,\\ -5+1) = (7,\\ -4)"
+        }
+      ]
+    },
+    {
+      "id": "vc-05",
+      "statement": "Donats els punts $A=(4, 0)$, $B=(4, -1)$, $C=(3, -2)$ i $D=(2, -3)$, calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(1, 0)",
+        "(-1, -2)",
+        "(-1, 0)",
+        "(1, 2)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-4,\\ -1-0) = (0,\\ -1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (2-3,\\ -3-(-2)) = (-1,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (0-(-1),\\ -1-(-1)) = (1,\\ 0)"
+        }
+      ]
+    },
+    {
+      "id": "vc-06",
+      "statement": "Donats els punts $A=(-3, -1)$, $B=(2, -3)$, $C=(-1, 0)$ i $D=(-3, -2)$, calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(-6, -1)",
+        "(7, 0)",
+        "(-7, 0)",
+        "(3, -4)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (2-(-3),\\ -3-(-1)) = (5,\\ -2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-(-1),\\ -2-0) = (-2,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-2-5,\\ -2-(-2)) = (-7,\\ 0)"
+        }
+      ]
+    },
+    {
+      "id": "vc-07",
+      "statement": "Donats els punts $A=(-1, -3)$, $B=(2, 3)$, $C=(-2, -1)$ i $D=(-2, 2)$, calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(3, 9)",
+        "(-3, -9)",
+        "(3, 3)",
+        "(3, -9)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (2-(-1),\\ 3-(-3)) = (3,\\ 6)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-2-(-2),\\ 2-(-1)) = (0,\\ 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (3+0,\\ 6+3) = (3,\\ 9)"
+        }
+      ]
+    },
+    {
+      "id": "vc-08",
+      "statement": "Donats els punts $A=(-1, 1)$, $B=(1, -3)$, $C=(1, -4)$ i $D=(1, 4)$, calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(2, 4)",
+        "(2, -12)",
+        "(-2, 12)",
+        "(2, 12)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (1-(-1),\\ -3-1) = (2,\\ -4)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (1-1,\\ 4-(-4)) = (0,\\ 8)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (2-0,\\ -4-8) = (2,\\ -12)"
+        }
+      ]
+    },
+    {
+      "id": "vc-09",
+      "statement": "Donats els punts $A=(2, 1)$, $B=(4, 0)$, $C=(4, -3)$ i $D=(-3, -1)$, calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(-5, 1)",
+        "(9, -3)",
+        "(9, 3)",
+        "(-9, 3)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-2,\\ 0-1) = (2,\\ -1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-4,\\ -1-(-3)) = (-7,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-7-2,\\ 2-(-1)) = (-9,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-10",
+      "statement": "Donats els punts $A=(0, -4)$, $B=(-2, 0)$, $C=(-2, 2)$ i $D=(0, 2)$, calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(-1, 6)",
+        "(-4, 4)",
+        "(0, 4)",
+        "(0, -4)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-0,\\ 0-(-4)) = (-2,\\ 4)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (0-(-2),\\ 2-2) = (2,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-2+2,\\ 4+0) = (0,\\ 4)"
+        }
+      ]
+    },
+    {
+      "id": "vc-11",
+      "statement": "Donats els punts $A=(-4, -2)$, $B=(2, -3)$, $C=(0, -4)$ i $D=(-3, 0)$, calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(-9, 5)",
+        "(9, 5)",
+        "(3, 3)",
+        "(9, -5)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (2-(-4),\\ -3-(-2)) = (6,\\ -1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-0,\\ 0-(-4)) = (-3,\\ 4)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (6-(-3),\\ -1-4) = (9,\\ -5)"
+        }
+      ]
+    },
+    {
+      "id": "vc-12",
+      "statement": "Donats els punts $A=(-3, 0)$, $B=(-3, 3)$, $C=(-4, 1)$ i $D=(4, 2)$, calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(-8, 2)",
+        "(8, -2)",
+        "(-8, -2)",
+        "(8, 4)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem les components dels dos vectors: destí menys origen."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-3-(-3),\\ 3-0) = (0,\\ 3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (4-(-4),\\ 2-1) = (8,\\ 1)"
+        },
+        {
+          "kind": "text",
+          "text": "Ara apliquem l'operació component a component (x amb x, y amb y)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (8-0,\\ 1-3) = (8,\\ -2)"
+        }
+      ]
+    },
+    {
+      "id": "vc-13",
+      "statement": "Siguin els vectors $\\vec{AB}=(-5, 3)$ i $\\vec{CD}=(-2, -4)$. Calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(-7, 1)",
+        "(-7, -1)",
+        "(7, -1)",
+        "(-3, 7)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-5,\\ 3), \\quad \\vec{CD} = (-2,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-5+(-2),\\ 3+(-4)) = (-7,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-14",
+      "statement": "Siguin els vectors $\\vec{AB}=(-3, -2)$ i $\\vec{CD}=(-1, 5)$. Calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(2, 7)",
+        "(-2, -7)",
+        "(-2, 7)",
+        "(-4, 3)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-3,\\ -2), \\quad \\vec{CD} = (-1,\\ 5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (-3-(-1),\\ -2-5) = (-2,\\ -7)"
+        }
+      ]
+    },
+    {
+      "id": "vc-15",
+      "statement": "Siguin els vectors $\\vec{AB}=(-1, 2)$ i $\\vec{CD}=(3, 5)$. Calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(4, 3)",
+        "(2, 7)",
+        "(-4, 3)",
+        "(-4, -3)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-1,\\ 2), \\quad \\vec{CD} = (3,\\ 5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (3-(-1),\\ 5-2) = (4,\\ 3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-16",
+      "statement": "Siguin els vectors $\\vec{AB}=(-5, -1)$ i $\\vec{CD}=(-5, -5)$. Calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(0, 4)",
+        "(10, -6)",
+        "(-10, 6)",
+        "(-10, -6)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-5,\\ -1), \\quad \\vec{CD} = (-5,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-5+(-5),\\ -1+(-5)) = (-10,\\ -6)"
+        }
+      ]
+    },
+    {
+      "id": "vc-17",
+      "statement": "Siguin els vectors $\\vec{AB}=(3, 2)$ i $\\vec{CD}=(-2, 2)$. Calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(5, 0)",
+        "(-5, 0)",
+        "(1, 4)",
+        "(3, 2)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (3,\\ 2), \\quad \\vec{CD} = (-2,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (3-(-2),\\ 2-2) = (5,\\ 0)"
+        }
+      ]
+    },
+    {
+      "id": "vc-18",
+      "statement": "Siguin els vectors $\\vec{AB}=(3, -1)$ i $\\vec{CD}=(-2, -2)$. Calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(5, 1)",
+        "(5, -1)",
+        "(-5, -1)",
+        "(1, -3)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (3,\\ -1), \\quad \\vec{CD} = (-2,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-2-3,\\ -2-(-1)) = (-5,\\ -1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-19",
+      "statement": "Siguin els vectors $\\vec{AB}=(1, 0)$ i $\\vec{CD}=(-5, -3)$. Calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(-4, 3)",
+        "(6, 3)",
+        "(4, -3)",
+        "(-4, -3)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (1,\\ 0), \\quad \\vec{CD} = (-5,\\ -3)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (1+(-5),\\ 0+(-3)) = (-4,\\ -3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-20",
+      "statement": "Siguin els vectors $\\vec{AB}=(1, -3)$ i $\\vec{CD}=(-5, -4)$. Calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(6, 1)",
+        "(-6, -1)",
+        "(-4, -7)",
+        "(6, -1)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (1,\\ -3), \\quad \\vec{CD} = (-5,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (1-(-5),\\ -3-(-4)) = (6,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-21",
+      "statement": "Siguin els vectors $\\vec{AB}=(4, -2)$ i $\\vec{CD}=(-1, -5)$. Calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(5, 3)",
+        "(3, -7)",
+        "(-5, -3)",
+        "(5, -3)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (4,\\ -2), \\quad \\vec{CD} = (-1,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-1-4,\\ -5-(-2)) = (-5,\\ -3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-22",
+      "statement": "Siguin els vectors $\\vec{AB}=(-1, 2)$ i $\\vec{CD}=(-5, -1)$. Calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(-6, 1)",
+        "(6, 1)",
+        "(4, 3)",
+        "(-6, -1)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-1,\\ 2), \\quad \\vec{CD} = (-5,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-1+(-5),\\ 2+(-1)) = (-6,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-23",
+      "statement": "Siguin els vectors $\\vec{AB}=(-2, -5)$ i $\\vec{CD}=(-1, -2)$. Calcula $\\vec{AB}-\\vec{CD}$.",
+      "options": [
+        "(1, 3)",
+        "(-1, 3)",
+        "(-1, -3)",
+        "(-3, -7)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-2,\\ -5), \\quad \\vec{CD} = (-1,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (-2-(-1),\\ -5-(-2)) = (-1,\\ -3)"
+        }
+      ]
+    },
+    {
+      "id": "vc-24",
+      "statement": "Siguin els vectors $\\vec{AB}=(0, 1)$ i $\\vec{CD}=(-4, 2)$. Calcula $\\vec{CD}-\\vec{AB}$.",
+      "options": [
+        "(4, -1)",
+        "(-4, 1)",
+        "(4, 1)",
+        "(-4, 3)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (0,\\ 1), \\quad \\vec{CD} = (-4,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-4-0,\\ 2-1) = (-4,\\ 1)"
+        }
+      ]
+    },
+    {
+      "id": "vc-25",
+      "statement": "Siguin els vectors $\\vec{AB}=(-2, 3)$ i $\\vec{CD}=(-5, -4)$. Calcula $\\vec{AB}+\\vec{CD}$.",
+      "options": [
+        "(3, 7)",
+        "(7, -1)",
+        "(-7, -1)",
+        "(-7, 1)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Per sumar o restar vectors donats per les seves components, operem x amb x i y amb y."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = (-2,\\ 3), \\quad \\vec{CD} = (-5,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem l'operació component a component."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-2+(-5),\\ 3+(-4)) = (-7,\\ -1)"
+        }
+      ]
+    }
+  ]
+}

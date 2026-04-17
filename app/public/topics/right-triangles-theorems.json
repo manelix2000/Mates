@@ -1,0 +1,1769 @@
+{
+  "id": "right-triangles-theorems",
+  "name": "Triangles rectangles — teoremes (Pitàgores i altura)",
+  "description": "Aplica el teorema de Pitàgores ($a^2=b^2+c^2$) i el teorema de l'altura ($h^2=m\\cdot n$) per trobar diversos valors desconeguts en cada exercici. Convencions: angle recte a $A$, hipotenusa $a=BC$, catets $b=AC$ i $c=AB$, altura $h$ sobre la hipotenusa, projeccions $m$ (costat de $B$) i $n$ (costat de $C$), amb $a=m+n$.",
+  "questions": [
+    {
+      "id": "tr-01",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=4$ cm i $n=9$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 10.816653826391969,
+        "c": 7.211102550927978,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "4 cm",
+          "n": "9 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 6\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$h = 13\\ \\text{cm},\\ a = 6\\ \\text{cm}$",
+        "$h = \\sqrt{97}\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$h = 6\\ \\text{cm},\\ a = 36\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 4 \\cdot 9 = 36 \\;\\Rightarrow\\; h = \\sqrt{36} = 6\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 4 + 9 = 13\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 10.816653826391969,
+            "c": 7.211102550927978,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "4 cm",
+              "n": "9 cm",
+              "h": "h = 6 cm",
+              "a": "a = 13 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-02",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=2$ cm i $n=8$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 8.94427190999916,
+        "c": 4.47213595499958,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "2 cm",
+          "n": "8 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 10\\ \\text{cm},\\ a = 4\\ \\text{cm}$",
+        "$h = 4\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$h = 2\\sqrt{17}\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$h = 4\\ \\text{cm},\\ a = 16\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 2 \\cdot 8 = 16 \\;\\Rightarrow\\; h = \\sqrt{16} = 4\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 2 + 8 = 10\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 8.94427190999916,
+            "c": 4.47213595499958,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "2 cm",
+              "n": "8 cm",
+              "h": "h = 4 cm",
+              "a": "a = 10 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-03",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=3$ cm i $n=12$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 13.416407864998739,
+        "c": 6.708203932499369,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "3 cm",
+          "n": "12 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 6\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$h = 6\\ \\text{cm},\\ a = 36\\ \\text{cm}$",
+        "$h = 3\\sqrt{17}\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$h = 15\\ \\text{cm},\\ a = 6\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 3 \\cdot 12 = 36 \\;\\Rightarrow\\; h = \\sqrt{36} = 6\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 3 + 12 = 15\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 13.416407864998739,
+            "c": 6.708203932499369,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "3 cm",
+              "n": "12 cm",
+              "h": "h = 6 cm",
+              "a": "a = 15 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-04",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=5$ cm i $n=20$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 22.360679774997898,
+        "c": 11.180339887498949,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "5 cm",
+          "n": "20 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 5\\sqrt{17}\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$h = 10\\ \\text{cm},\\ a = 100\\ \\text{cm}$",
+        "$h = 10\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$h = 25\\ \\text{cm},\\ a = 10\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 5 \\cdot 20 = 100 \\;\\Rightarrow\\; h = \\sqrt{100} = 10\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 5 + 20 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 22.360679774997898,
+            "c": 11.180339887498949,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "5 cm",
+              "n": "20 cm",
+              "h": "h = 10 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-05",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=9$ cm i $n=16$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 20.0,
+        "c": 15.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "9 cm",
+          "n": "16 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 25\\ \\text{cm},\\ a = 12\\ \\text{cm}$",
+        "$h = 12\\ \\text{cm},\\ a = 144\\ \\text{cm}$",
+        "$h = 12\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$h = \\sqrt{337}\\ \\text{cm},\\ a = 25\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 9 \\cdot 16 = 144 \\;\\Rightarrow\\; h = \\sqrt{144} = 12\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 9 + 16 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 20.0,
+            "c": 15.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "9 cm",
+              "n": "16 cm",
+              "h": "h = 12 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-06",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=4$ cm i $n=25$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 26.92582403567252,
+        "c": 10.770329614269007,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "4 cm",
+          "n": "25 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 10\\ \\text{cm},\\ a = 100\\ \\text{cm}$",
+        "$h = 29\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$h = \\sqrt{641}\\ \\text{cm},\\ a = 29\\ \\text{cm}$",
+        "$h = 10\\ \\text{cm},\\ a = 29\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 4 \\cdot 25 = 100 \\;\\Rightarrow\\; h = \\sqrt{100} = 10\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 4 + 25 = 29\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 26.92582403567252,
+            "c": 10.770329614269007,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "4 cm",
+              "n": "25 cm",
+              "h": "h = 10 cm",
+              "a": "a = 29 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-07",
+      "statement": "En el triangle rectangle següent, les projeccions dels catets sobre la hipotenusa són $m=6$ cm i $n=24$ cm. Calcula l'altura $h$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 26.832815729997478,
+        "c": 13.416407864998739,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "6 cm",
+          "n": "24 cm",
+          "h": "h",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "h",
+          "a"
+        ]
+      },
+      "options": [
+        "$h = 30\\ \\text{cm},\\ a = 12\\ \\text{cm}$",
+        "$h = 12\\ \\text{cm},\\ a = 30\\ \\text{cm}$",
+        "$h = 6\\sqrt{17}\\ \\text{cm},\\ a = 30\\ \\text{cm}$",
+        "$h = 12\\ \\text{cm},\\ a = 144\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$."
+        },
+        {
+          "kind": "math",
+          "tex": "h^2 = 6 \\cdot 24 = 144 \\;\\Rightarrow\\; h = \\sqrt{144} = 12\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions: $a = m + n$."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 6 + 24 = 30\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 26.832815729997478,
+            "c": 13.416407864998739,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "6 cm",
+              "n": "24 cm",
+              "h": "h = 12 cm",
+              "a": "a = 30 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "h",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-08",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=6$ cm i una de les projeccions és $m=4$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 10.816653826391969,
+        "c": 7.211102550927978,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "4 cm",
+          "h": "6 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 24\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$n = 2\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$n = 9\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$n = 9\\ \\text{cm},\\ a = 13\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{36}{4} = 9\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 4 + 9 = 13\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 10.816653826391969,
+            "c": 7.211102550927978,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "4 cm",
+              "h": "6 cm",
+              "n": "n = 9 cm",
+              "a": "a = 13 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-09",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=12$ cm i una de les projeccions és $m=9$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 20.0,
+        "c": 15.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "9 cm",
+          "h": "12 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 108\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$n = 16\\ \\text{cm},\\ a = 21\\ \\text{cm}$",
+        "$n = 3\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$n = 16\\ \\text{cm},\\ a = 25\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{144}{9} = 16\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 9 + 16 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 20.0,
+            "c": 15.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "9 cm",
+              "h": "12 cm",
+              "n": "n = 16 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-10",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=6$ cm i una de les projeccions és $m=3$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 13.416407864998739,
+        "c": 6.708203932499369,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "3 cm",
+          "h": "6 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 3\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$n = 12\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$n = 12\\ \\text{cm},\\ a = 9\\ \\text{cm}$",
+        "$n = 18\\ \\text{cm},\\ a = 15\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{36}{3} = 12\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 3 + 12 = 15\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 13.416407864998739,
+            "c": 6.708203932499369,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "3 cm",
+              "h": "6 cm",
+              "n": "n = 12 cm",
+              "a": "a = 15 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-11",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=4$ cm i una de les projeccions és $m=2$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 8.94427190999916,
+        "c": 4.47213595499958,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "2 cm",
+          "h": "4 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 8\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$n = 2\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$n = 8\\ \\text{cm},\\ a = 6\\ \\text{cm}$",
+        "$\\text{(opció A)}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{16}{2} = 8\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 2 + 8 = 10\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 8.94427190999916,
+            "c": 4.47213595499958,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "2 cm",
+              "h": "4 cm",
+              "n": "n = 8 cm",
+              "a": "a = 10 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-12",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=10$ cm i una de les projeccions és $m=5$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 22.360679774997898,
+        "c": 11.180339887498949,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "5 cm",
+          "h": "10 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 5\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$n = 20\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$n = 20\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$n = 50\\ \\text{cm},\\ a = 25\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{100}{5} = 20\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 5 + 20 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 22.360679774997898,
+            "c": 11.180339887498949,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "5 cm",
+              "h": "10 cm",
+              "n": "n = 20 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-13",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=8$ cm i una de les projeccions és $m=4$ cm. Calcula l'altra projecció $n$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 17.88854381999832,
+        "c": 8.94427190999916,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "m": "4 cm",
+          "h": "8 cm",
+          "n": "n",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "n",
+          "a"
+        ]
+      },
+      "options": [
+        "$n = 4\\ \\text{cm},\\ a = 20\\ \\text{cm}$",
+        "$n = 16\\ \\text{cm},\\ a = 20\\ \\text{cm}$",
+        "$n = 32\\ \\text{cm},\\ a = 20\\ \\text{cm}$",
+        "$n = 16\\ \\text{cm},\\ a = 12\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $n = h^2/m$."
+        },
+        {
+          "kind": "math",
+          "tex": "n = \\dfrac{h^2}{m} = \\dfrac{64}{4} = 16\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 4 + 16 = 20\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 17.88854381999832,
+            "c": 8.94427190999916,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "m": "4 cm",
+              "h": "8 cm",
+              "n": "n = 16 cm",
+              "a": "a = 20 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "n",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-14",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=6$ cm i una de les projeccions és $n=9$ cm. Calcula l'altra projecció $m$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 10.816653826391969,
+        "c": 7.211102550927978,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "n": "9 cm",
+          "h": "6 cm",
+          "m": "m",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "a"
+        ]
+      },
+      "options": [
+        "$m = 3\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$m = 4\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$m = 54\\ \\text{cm},\\ a = 13\\ \\text{cm}$",
+        "$m = 4\\ \\text{cm},\\ a = 13\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $m = h^2/n$."
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{h^2}{n} = \\dfrac{36}{9} = 4\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 4 + 9 = 13\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 10.816653826391969,
+            "c": 7.211102550927978,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "n": "9 cm",
+              "h": "6 cm",
+              "m": "m = 4 cm",
+              "a": "a = 13 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-15",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=12$ cm i una de les projeccions és $n=16$ cm. Calcula l'altra projecció $m$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 20.0,
+        "c": 15.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "n": "16 cm",
+          "h": "12 cm",
+          "m": "m",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "a"
+        ]
+      },
+      "options": [
+        "$m = 192\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$m = 9\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$m = 9\\ \\text{cm},\\ a = 28\\ \\text{cm}$",
+        "$m = 4\\ \\text{cm},\\ a = 25\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $m = h^2/n$."
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{h^2}{n} = \\dfrac{144}{16} = 9\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 9 + 16 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 20.0,
+            "c": 15.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "n": "16 cm",
+              "h": "12 cm",
+              "m": "m = 9 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-16",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=4$ cm i una de les projeccions és $n=8$ cm. Calcula l'altra projecció $m$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 8.94427190999916,
+        "c": 4.47213595499958,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "n": "8 cm",
+          "h": "4 cm",
+          "m": "m",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "a"
+        ]
+      },
+      "options": [
+        "$m = 4\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$m = 2\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$m = 32\\ \\text{cm},\\ a = 10\\ \\text{cm}$",
+        "$m = 2\\ \\text{cm},\\ a = 12\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $m = h^2/n$."
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{h^2}{n} = \\dfrac{16}{8} = 2\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 2 + 8 = 10\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 8.94427190999916,
+            "c": 4.47213595499958,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "n": "8 cm",
+              "h": "4 cm",
+              "m": "m = 2 cm",
+              "a": "a = 10 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-17",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=6$ cm i una de les projeccions és $n=12$ cm. Calcula l'altra projecció $m$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 13.416407864998739,
+        "c": 6.708203932499369,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "n": "12 cm",
+          "h": "6 cm",
+          "m": "m",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "a"
+        ]
+      },
+      "options": [
+        "$m = 72\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$m = 6\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$m = 3\\ \\text{cm},\\ a = 15\\ \\text{cm}$",
+        "$m = 3\\ \\text{cm},\\ a = 18\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $m = h^2/n$."
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{h^2}{n} = \\dfrac{36}{12} = 3\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 3 + 12 = 15\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 13.416407864998739,
+            "c": 6.708203932499369,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "n": "12 cm",
+              "h": "6 cm",
+              "m": "m = 3 cm",
+              "a": "a = 15 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-18",
+      "statement": "En el triangle rectangle següent, l'altura sobre la hipotenusa és $h=10$ cm i una de les projeccions és $n=20$ cm. Calcula l'altra projecció $m$ i la hipotenusa $a$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 22.360679774997898,
+        "c": 11.180339887498949,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "n": "20 cm",
+          "h": "10 cm",
+          "m": "m",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "a"
+        ]
+      },
+      "options": [
+        "$m = 5\\ \\text{cm},\\ a = 30\\ \\text{cm}$",
+        "$m = 10\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$m = 200\\ \\text{cm},\\ a = 25\\ \\text{cm}$",
+        "$m = 5\\ \\text{cm},\\ a = 25\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Pel teorema de l'altura, $h^2 = m \\cdot n$. Aïllem $m = h^2/n$."
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{h^2}{n} = \\dfrac{100}{20} = 5\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "La hipotenusa és la suma de les dues projeccions."
+        },
+        {
+          "kind": "math",
+          "tex": "a = m + n = 5 + 20 = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 22.360679774997898,
+            "c": 11.180339887498949,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "n": "20 cm",
+              "h": "10 cm",
+              "m": "m = 5 cm",
+              "a": "a = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-19",
+      "statement": "En el triangle rectangle següent, la hipotenusa és $a=13$ cm i l'altura sobre la hipotenusa és $h=6$ cm. Calcula les dues projeccions $m$ i $n$ (amb $m \\le n$).",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 10.816653826391969,
+        "c": 7.211102550927978,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "a": "13 cm",
+          "h": "6 cm",
+          "m": "m",
+          "n": "n"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "n"
+        ]
+      },
+      "options": [
+        "$m = 9\\ \\text{cm},\\ n = 4\\ \\text{cm}$",
+        "$m = 4\\ \\text{cm},\\ n = 9\\ \\text{cm}$",
+        "$m = 6\\ \\text{cm},\\ n = 7\\ \\text{cm}$",
+        "$m = 6.5\\ \\text{cm},\\ n = 6.5\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Sabem que $m + n = a$ (la hipotenusa és la suma de les projeccions) i pel teorema de l'altura $m \\cdot n = h^2$. Tenim un sistema de dues equacions."
+        },
+        {
+          "kind": "math",
+          "tex": "\\begin{cases} m + n = 13 \\\\ m \\cdot n = 6^2 = 36 \\end{cases}"
+        },
+        {
+          "kind": "text",
+          "text": "$m$ i $n$ són les arrels de l'equació de segon grau $x^2 - (m+n)\\,x + m\\,n = 0$."
+        },
+        {
+          "kind": "math",
+          "tex": "x^2 - 13x + 36 = 0 \\;\\Rightarrow\\; x = \\dfrac{13 \\pm \\sqrt{13^2 - 4 \\cdot 36}}{2} = \\dfrac{13 \\pm 5}{2}"
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{13 - 5}{2} = 4\\ \\text{cm},\\quad n = \\dfrac{13 + 5}{2} = 9\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 10.816653826391969,
+            "c": 7.211102550927978,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "a": "13 cm",
+              "h": "6 cm",
+              "m": "m = 4 cm",
+              "n": "n = 9 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "n"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-20",
+      "statement": "En el triangle rectangle següent, la hipotenusa és $a=25$ cm i l'altura sobre la hipotenusa és $h=12$ cm. Calcula les dues projeccions $m$ i $n$ (amb $m \\le n$).",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 20.0,
+        "c": 15.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "a": "25 cm",
+          "h": "12 cm",
+          "m": "m",
+          "n": "n"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "n"
+        ]
+      },
+      "options": [
+        "$m = 12\\ \\text{cm},\\ n = 13\\ \\text{cm}$",
+        "$m = 16\\ \\text{cm},\\ n = 9\\ \\text{cm}$",
+        "$m = 12.5\\ \\text{cm},\\ n = 12.5\\ \\text{cm}$",
+        "$m = 9\\ \\text{cm},\\ n = 16\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Sabem que $m + n = a$ (la hipotenusa és la suma de les projeccions) i pel teorema de l'altura $m \\cdot n = h^2$. Tenim un sistema de dues equacions."
+        },
+        {
+          "kind": "math",
+          "tex": "\\begin{cases} m + n = 25 \\\\ m \\cdot n = 12^2 = 144 \\end{cases}"
+        },
+        {
+          "kind": "text",
+          "text": "$m$ i $n$ són les arrels de l'equació de segon grau $x^2 - (m+n)\\,x + m\\,n = 0$."
+        },
+        {
+          "kind": "math",
+          "tex": "x^2 - 25x + 144 = 0 \\;\\Rightarrow\\; x = \\dfrac{25 \\pm \\sqrt{25^2 - 4 \\cdot 144}}{2} = \\dfrac{25 \\pm 7}{2}"
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{25 - 7}{2} = 9\\ \\text{cm},\\quad n = \\dfrac{25 + 7}{2} = 16\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 20.0,
+            "c": 15.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "a": "25 cm",
+              "h": "12 cm",
+              "m": "m = 9 cm",
+              "n": "n = 16 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "n"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-21",
+      "statement": "En el triangle rectangle següent, la hipotenusa és $a=10$ cm i l'altura sobre la hipotenusa és $h=3$ cm. Calcula les dues projeccions $m$ i $n$ (amb $m \\le n$).",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 9.486832980505138,
+        "c": 3.1622776601683795,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "a": "10 cm",
+          "h": "3 cm",
+          "m": "m",
+          "n": "n"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "n"
+        ]
+      },
+      "options": [
+        "$m = 9\\ \\text{cm},\\ n = 1\\ \\text{cm}$",
+        "$m = 5\\ \\text{cm},\\ n = 5\\ \\text{cm}$",
+        "$m = 1\\ \\text{cm},\\ n = 9\\ \\text{cm}$",
+        "$m = 3\\ \\text{cm},\\ n = 7\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Sabem que $m + n = a$ (la hipotenusa és la suma de les projeccions) i pel teorema de l'altura $m \\cdot n = h^2$. Tenim un sistema de dues equacions."
+        },
+        {
+          "kind": "math",
+          "tex": "\\begin{cases} m + n = 10 \\\\ m \\cdot n = 3^2 = 9 \\end{cases}"
+        },
+        {
+          "kind": "text",
+          "text": "$m$ i $n$ són les arrels de l'equació de segon grau $x^2 - (m+n)\\,x + m\\,n = 0$."
+        },
+        {
+          "kind": "math",
+          "tex": "x^2 - 10x + 9 = 0 \\;\\Rightarrow\\; x = \\dfrac{10 \\pm \\sqrt{10^2 - 4 \\cdot 9}}{2} = \\dfrac{10 \\pm 8}{2}"
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{10 - 8}{2} = 1\\ \\text{cm},\\quad n = \\dfrac{10 + 8}{2} = 9\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 9.486832980505138,
+            "c": 3.1622776601683795,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "a": "10 cm",
+              "h": "3 cm",
+              "m": "m = 1 cm",
+              "n": "n = 9 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "n"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-22",
+      "statement": "En el triangle rectangle següent, la hipotenusa és $a=15$ cm i l'altura sobre la hipotenusa és $h=6$ cm. Calcula les dues projeccions $m$ i $n$ (amb $m \\le n$).",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 13.416407864998739,
+        "c": 6.708203932499369,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "a": "15 cm",
+          "h": "6 cm",
+          "m": "m",
+          "n": "n"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "n"
+        ]
+      },
+      "options": [
+        "$m = 3\\ \\text{cm},\\ n = 12\\ \\text{cm}$",
+        "$m = 7.5\\ \\text{cm},\\ n = 7.5\\ \\text{cm}$",
+        "$m = 6\\ \\text{cm},\\ n = 9\\ \\text{cm}$",
+        "$m = 12\\ \\text{cm},\\ n = 3\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Sabem que $m + n = a$ (la hipotenusa és la suma de les projeccions) i pel teorema de l'altura $m \\cdot n = h^2$. Tenim un sistema de dues equacions."
+        },
+        {
+          "kind": "math",
+          "tex": "\\begin{cases} m + n = 15 \\\\ m \\cdot n = 6^2 = 36 \\end{cases}"
+        },
+        {
+          "kind": "text",
+          "text": "$m$ i $n$ són les arrels de l'equació de segon grau $x^2 - (m+n)\\,x + m\\,n = 0$."
+        },
+        {
+          "kind": "math",
+          "tex": "x^2 - 15x + 36 = 0 \\;\\Rightarrow\\; x = \\dfrac{15 \\pm \\sqrt{15^2 - 4 \\cdot 36}}{2} = \\dfrac{15 \\pm 9}{2}"
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{15 - 9}{2} = 3\\ \\text{cm},\\quad n = \\dfrac{15 + 9}{2} = 12\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 13.416407864998739,
+            "c": 6.708203932499369,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "a": "15 cm",
+              "h": "6 cm",
+              "m": "m = 3 cm",
+              "n": "n = 12 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "n"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-23",
+      "statement": "En el triangle rectangle següent, la hipotenusa és $a=29$ cm i l'altura sobre la hipotenusa és $h=10$ cm. Calcula les dues projeccions $m$ i $n$ (amb $m \\le n$).",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 26.92582403567252,
+        "c": 10.770329614269007,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "a": "29 cm",
+          "h": "10 cm",
+          "m": "m",
+          "n": "n"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "m",
+          "n"
+        ]
+      },
+      "options": [
+        "$m = 10\\ \\text{cm},\\ n = 19\\ \\text{cm}$",
+        "$m = 14.5\\ \\text{cm},\\ n = 14.5\\ \\text{cm}$",
+        "$m = 4\\ \\text{cm},\\ n = 25\\ \\text{cm}$",
+        "$m = 25\\ \\text{cm},\\ n = 4\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Sabem que $m + n = a$ (la hipotenusa és la suma de les projeccions) i pel teorema de l'altura $m \\cdot n = h^2$. Tenim un sistema de dues equacions."
+        },
+        {
+          "kind": "math",
+          "tex": "\\begin{cases} m + n = 29 \\\\ m \\cdot n = 10^2 = 100 \\end{cases}"
+        },
+        {
+          "kind": "text",
+          "text": "$m$ i $n$ són les arrels de l'equació de segon grau $x^2 - (m+n)\\,x + m\\,n = 0$."
+        },
+        {
+          "kind": "math",
+          "tex": "x^2 - 29x + 100 = 0 \\;\\Rightarrow\\; x = \\dfrac{29 \\pm \\sqrt{29^2 - 4 \\cdot 100}}{2} = \\dfrac{29 \\pm 21}{2}"
+        },
+        {
+          "kind": "math",
+          "tex": "m = \\dfrac{29 - 21}{2} = 4\\ \\text{cm},\\quad n = \\dfrac{29 + 21}{2} = 25\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 26.92582403567252,
+            "c": 10.770329614269007,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "a": "29 cm",
+              "h": "10 cm",
+              "m": "m = 4 cm",
+              "n": "n = 25 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "m",
+              "n"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-24",
+      "statement": "En el triangle rectangle següent, els catets mesuren $b=3$ cm i $c=4$ cm. Calcula la hipotenusa $a$ i el perímetre $P$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 3.0,
+        "c": 4.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "b": "3 cm",
+          "c": "4 cm",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "a"
+        ]
+      },
+      "options": [
+        "$\\text{(opció A)}$",
+        "$a = 5\\ \\text{cm},\\ P = 12\\ \\text{cm}$",
+        "$a = 7\\ \\text{cm},\\ P = 14\\ \\text{cm}$",
+        "$a = \\sqrt{7}\\ \\text{cm},\\ P = 12\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Apliquem el teorema de Pitàgores per trobar la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "a^2 = b^2 + c^2 = 9 + 16 = 25 \\;\\Rightarrow\\; a = \\sqrt{25} = 5\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El perímetre és la suma dels tres costats."
+        },
+        {
+          "kind": "math",
+          "tex": "P = a + b + c = 5 + 3 + 4 = 12\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 3.0,
+            "c": 4.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "b": "3 cm",
+              "c": "4 cm",
+              "a": "a = 5 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "a"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tr-25",
+      "statement": "En el triangle rectangle següent, els catets mesuren $b=5$ cm i $c=12$ cm. Calcula la hipotenusa $a$ i el perímetre $P$.",
+      "graphic": {
+        "kind": "right-triangle",
+        "b": 5.0,
+        "c": 12.0,
+        "labels": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "b": "5 cm",
+          "c": "12 cm",
+          "a": "a"
+        },
+        "showAltitude": true,
+        "highlight": [
+          "a"
+        ]
+      },
+      "options": [
+        "$a = 13\\ \\text{cm},\\ P = 60\\ \\text{cm}$",
+        "$a = 13\\ \\text{cm},\\ P = 30\\ \\text{cm}$",
+        "$a = 17\\ \\text{cm},\\ P = 34\\ \\text{cm}$",
+        "$a = \\sqrt{119}\\ \\text{cm},\\ P = 30\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Apliquem el teorema de Pitàgores per trobar la hipotenusa."
+        },
+        {
+          "kind": "math",
+          "tex": "a^2 = b^2 + c^2 = 25 + 144 = 169 \\;\\Rightarrow\\; a = \\sqrt{169} = 13\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El perímetre és la suma dels tres costats."
+        },
+        {
+          "kind": "math",
+          "tex": "P = a + b + c = 13 + 5 + 12 = 30\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "right-triangle",
+            "b": 5.0,
+            "c": 12.0,
+            "labels": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "b": "5 cm",
+              "c": "12 cm",
+              "a": "a = 13 cm"
+            },
+            "showAltitude": true,
+            "highlight": [
+              "a"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

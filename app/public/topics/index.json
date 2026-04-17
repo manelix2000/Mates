@@ -1,0 +1,34 @@
+{
+  "topics": [
+    {
+      "id": "vectors-graphic",
+      "name": "Vectors — construcció gràfica (suma i resta)",
+      "file": "vectors-graphic.json"
+    },
+    {
+      "id": "vectors-compute",
+      "name": "Vectors — suma i resta (càlcul)",
+      "file": "vectors-compute.json"
+    },
+    {
+      "id": "vectors-endpoints",
+      "name": "Vectors — coordenades d'un extrem (A o B)",
+      "file": "vectors-endpoints.json"
+    },
+    {
+      "id": "right-triangles-theorems",
+      "name": "Triangles rectangles — teoremes (Pitàgores i altura)",
+      "file": "right-triangles-theorems.json"
+    },
+    {
+      "id": "applied-right-triangles",
+      "name": "Problemes de triangles rectangles (trigonometria aplicada)",
+      "file": "applied-right-triangles.json"
+    },
+    {
+      "id": "shapes-perimeter-area",
+      "name": "Perímetres i àrees de figures planes",
+      "file": "shapes-perimeter-area.json"
+    }
+  ]
+}

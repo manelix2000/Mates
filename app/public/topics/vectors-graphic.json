@@ -1,0 +1,5307 @@
+{
+  "id": "vectors-graphic",
+  "name": "Vectors — construcció gràfica (suma i resta)",
+  "description": "Observa el gràfic i construeix gràficament la suma o la diferència aplicant la regla del triangle o del paral·lelogram. Indica les components del vector resultant.",
+  "questions": [
+    {
+      "id": "vg-01",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          3
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              1,
+              -2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              2,
+              -4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -3,
+              4
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              1
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              1,
+              -2
+            ],
+            "to": [
+              2,
+              -4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -3,
+              4
+            ],
+            "to": [
+              -3,
+              1
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(1, 1)",
+        "(-1, -5)",
+        "(-5, 1)",
+        "(1, -5)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (2-1,\\ -4-(-2)) = (1,\\ -2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-(-3),\\ 1-4) = (0,\\ -3)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (1+0,\\ -2+(-3)) = (1,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(1, -5)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -4,
+              3
+            ],
+            "yRange": [
+              -8,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  1,
+                  -2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  2,
+                  -4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -3,
+                  4
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  1
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  -7
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  1,
+                  -2
+                ],
+                "to": [
+                  2,
+                  -4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -3,
+                  4
+                ],
+                "to": [
+                  -3,
+                  1
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  2,
+                  -4
+                ],
+                "to": [
+                  2,
+                  -7
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  1,
+                  -2
+                ],
+                "to": [
+                  2,
+                  -7
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-02",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          3
+        ],
+        "yRange": [
+          -4,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -4,
+              -3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              2,
+              2
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -3,
+              -1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -4,
+              -3
+            ],
+            "to": [
+              2,
+              2
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -3,
+              -1
+            ],
+            "to": [
+              -3,
+              4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(6, 10)",
+        "(-6, 0)",
+        "(8, -2)",
+        "(6, 0)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (2-(-4),\\ 2-(-3)) = (6,\\ 5)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-(-3),\\ 4-(-1)) = (0,\\ 5)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (6-0,\\ 5-5) = (6,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(6, 0)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              3
+            ],
+            "yRange": [
+              -4,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -4,
+                  -3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -3,
+                  -1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  -3
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -4,
+                  -3
+                ],
+                "to": [
+                  2,
+                  2
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -3,
+                  -1
+                ],
+                "to": [
+                  -3,
+                  4
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  2,
+                  2
+                ],
+                "to": [
+                  2,
+                  -3
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -4,
+                  -3
+                ],
+                "to": [
+                  2,
+                  -3
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-03",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          5
+        ],
+        "yRange": [
+          -5,
+          3
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              2,
+              -4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -1,
+              -4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              4,
+              -2
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              0,
+              2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              2,
+              -4
+            ],
+            "to": [
+              -1,
+              -4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              4,
+              -2
+            ],
+            "to": [
+              0,
+              2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(1, 4)",
+        "(-1, 4)",
+        "(-7, 4)",
+        "(1, -4)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-1-2,\\ -4-(-4)) = (-3,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (0-4,\\ 2-(-2)) = (-4,\\ 4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-4-(-3),\\ 4-0) = (-1,\\ 4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-1, 4)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              5
+            ],
+            "yRange": [
+              -5,
+              3
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  2,
+                  -4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -1,
+                  -4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  4,
+                  -2
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  3,
+                  2
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  4,
+                  -2
+                ],
+                "to": [
+                  0,
+                  2
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  2,
+                  -4
+                ],
+                "to": [
+                  -1,
+                  -4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  0,
+                  2
+                ],
+                "to": [
+                  3,
+                  2
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  4,
+                  -2
+                ],
+                "to": [
+                  3,
+                  2
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-04",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          1
+        ],
+        "yRange": [
+          -4,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              0,
+              4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -2,
+              -3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -1,
+              1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              0,
+              4
+            ],
+            "to": [
+              -2,
+              -3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -1,
+              1
+            ],
+            "to": [
+              -3,
+              4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(0, -10)",
+        "(-4, 4)",
+        "(4, -4)",
+        "(-4, -4)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-0,\\ -3-4) = (-2,\\ -7)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-(-1),\\ 4-1) = (-2,\\ 3)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-2+(-2),\\ -7+3) = (-4,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-4, -4)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              1
+            ],
+            "yRange": [
+              -4,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -2,
+                  -3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -1,
+                  1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -4,
+                  0
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  0,
+                  4
+                ],
+                "to": [
+                  -2,
+                  -3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -1,
+                  1
+                ],
+                "to": [
+                  -3,
+                  4
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  -2,
+                  -3
+                ],
+                "to": [
+                  -4,
+                  0
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  0,
+                  4
+                ],
+                "to": [
+                  -4,
+                  0
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-05",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          5
+        ],
+        "yRange": [
+          -1,
+          4
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -1,
+              3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              4,
+              2
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              1,
+              3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              3,
+              1
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -1,
+              3
+            ],
+            "to": [
+              4,
+              2
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              1,
+              3
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(7, -3)",
+        "(3, -1)",
+        "(3, 1)",
+        "(-3, -1)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-(-1),\\ 2-3) = (5,\\ -1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-1,\\ 1-3) = (2,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (5-2,\\ -1-(-2)) = (3,\\ 1)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(3, 1)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              5
+            ],
+            "yRange": [
+              -1,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -1,
+                  3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  4,
+                  2
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  1,
+                  3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -1,
+                  3
+                ],
+                "to": [
+                  4,
+                  2
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  1,
+                  3
+                ],
+                "to": [
+                  3,
+                  1
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  4,
+                  2
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -1,
+                  3
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-06",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          4
+        ],
+        "yRange": [
+          -4,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -1,
+              -3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              0,
+              4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              3,
+              1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              3,
+              0
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -1,
+              -3
+            ],
+            "to": [
+              0,
+              4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              3,
+              1
+            ],
+            "to": [
+              3,
+              0
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(1, 6)",
+        "(1, 8)",
+        "(1, -8)",
+        "(-1, -8)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (0-(-1),\\ 4-(-3)) = (1,\\ 7)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-3,\\ 0-1) = (0,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (0-1,\\ -1-7) = (-1,\\ -8)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-1, -8)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              4
+            ],
+            "yRange": [
+              -8,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -1,
+                  -3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  3,
+                  0
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  -7
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  3,
+                  0
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  -1,
+                  -3
+                ],
+                "to": [
+                  0,
+                  4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  3,
+                  0
+                ],
+                "to": [
+                  2,
+                  -7
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  2,
+                  -7
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-07",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          3
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -2,
+              1
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -2,
+              3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              2,
+              -4
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -2,
+              1
+            ],
+            "to": [
+              -2,
+              3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              2,
+              -4
+            ],
+            "to": [
+              -3,
+              4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-5, 10)",
+        "(5, 10)",
+        "(5, -6)",
+        "(10, -5)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-(-2),\\ 3-1) = (0,\\ 2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-2,\\ 4-(-4)) = (-5,\\ 8)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (0+(-5),\\ 2+8) = (-5,\\ 10)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-5, 10)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -8,
+              3
+            ],
+            "yRange": [
+              -5,
+              12
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -2,
+                  1
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -2,
+                  3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  2,
+                  -4
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -7,
+                  11
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -2,
+                  1
+                ],
+                "to": [
+                  -2,
+                  3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  2,
+                  -4
+                ],
+                "to": [
+                  -3,
+                  4
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  -2,
+                  3
+                ],
+                "to": [
+                  -7,
+                  11
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -2,
+                  1
+                ],
+                "to": [
+                  -7,
+                  11
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-08",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          4
+        ],
+        "yRange": [
+          -5,
+          4
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              3,
+              3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -3,
+              -3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              0,
+              3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              -4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              3,
+              3
+            ],
+            "to": [
+              -3,
+              -3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              0,
+              3
+            ],
+            "to": [
+              -3,
+              -4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-3, 1)",
+        "(-9, -13)",
+        "(-3, -1)",
+        "(3, -1)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-3-3,\\ -3-3) = (-6,\\ -6)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-0,\\ -4-3) = (-3,\\ -7)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (-6-(-3),\\ -6-(-7)) = (-3,\\ 1)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-3, 1)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -4,
+              4
+            ],
+            "yRange": [
+              -5,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  3,
+                  3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -3,
+                  -3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  -4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  0,
+                  4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  3,
+                  3
+                ],
+                "to": [
+                  -3,
+                  -3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  0,
+                  3
+                ],
+                "to": [
+                  -3,
+                  -4
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  -3,
+                  -3
+                ],
+                "to": [
+                  0,
+                  4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  3,
+                  3
+                ],
+                "to": [
+                  0,
+                  4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-09",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -3,
+          4
+        ],
+        "yRange": [
+          -5,
+          3
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              0,
+              2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              1,
+              -4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              3,
+              1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -2,
+              -3
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              0,
+              2
+            ],
+            "to": [
+              1,
+              -4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              3,
+              1
+            ],
+            "to": [
+              -2,
+              -3
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(6, -2)",
+        "(-4, -10)",
+        "(-6, 2)",
+        "(6, 2)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (1-0,\\ -4-2) = (1,\\ -6)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-2-3,\\ -3-1) = (-5,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-5-1,\\ -4-(-6)) = (-6,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-6, 2)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -4,
+              4
+            ],
+            "yRange": [
+              -5,
+              4
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  0,
+                  2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  1,
+                  -4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -2,
+                  -3
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -3,
+                  3
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -2,
+                  -3
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  0,
+                  2
+                ],
+                "to": [
+                  1,
+                  -4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  -2,
+                  -3
+                ],
+                "to": [
+                  -3,
+                  3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -3,
+                  3
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-10",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          3
+        ],
+        "yRange": [
+          -3,
+          4
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              0,
+              -2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -1,
+              2
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              2,
+              3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              0,
+              -2
+            ],
+            "to": [
+              -1,
+              2
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              2,
+              3
+            ],
+            "to": [
+              -3,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-6, -1)",
+        "(-1, -6)",
+        "(4, 9)",
+        "(6, -1)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-1-0,\\ 2-(-2)) = (-1,\\ 4)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-2,\\ -2-3) = (-5,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-1+(-5),\\ 4+(-5)) = (-6,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-6, -1)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -7,
+              3
+            ],
+            "yRange": [
+              -4,
+              4
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  0,
+                  -2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -1,
+                  2
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -6,
+                  -3
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  0,
+                  -2
+                ],
+                "to": [
+                  -1,
+                  2
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  2,
+                  3
+                ],
+                "to": [
+                  -3,
+                  -2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  -1,
+                  2
+                ],
+                "to": [
+                  -6,
+                  -3
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  0,
+                  -2
+                ],
+                "to": [
+                  -6,
+                  -3
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-11",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -3,
+          5
+        ],
+        "yRange": [
+          -2,
+          3
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -2,
+              2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              4,
+              0
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              2,
+              1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              2,
+              -1
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -2,
+              2
+            ],
+            "to": [
+              4,
+              0
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              2,
+              1
+            ],
+            "to": [
+              2,
+              -1
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(5, -2)",
+        "(-6, 0)",
+        "(6, 0)",
+        "(6, -4)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-(-2),\\ 0-2) = (6,\\ -2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (2-2,\\ -1-1) = (0,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (6-0,\\ -2-(-2)) = (6,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(6, 0)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -3,
+              5
+            ],
+            "yRange": [
+              -2,
+              3
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -2,
+                  2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  4,
+                  0
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  2,
+                  1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  2,
+                  -1
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  4,
+                  2
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -2,
+                  2
+                ],
+                "to": [
+                  4,
+                  0
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  2,
+                  1
+                ],
+                "to": [
+                  2,
+                  -1
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  4,
+                  0
+                ],
+                "to": [
+                  4,
+                  2
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -2,
+                  2
+                ],
+                "to": [
+                  4,
+                  2
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-12",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          4
+        ],
+        "yRange": [
+          -5,
+          1
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -1,
+              -4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              3,
+              -2
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              0,
+              0
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -4,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -1,
+              -4
+            ],
+            "to": [
+              3,
+              -2
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              0,
+              0
+            ],
+            "to": [
+              -4,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-8, -4)",
+        "(8, 4)",
+        "(0, 0)",
+        "(8, -4)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (3-(-1),\\ -2-(-4)) = (4,\\ 2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-4-0,\\ -2-0) = (-4,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-4-4,\\ -2-2) = (-8,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-8, -4)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -9,
+              4
+            ],
+            "yRange": [
+              -5,
+              1
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -1,
+                  -4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  3,
+                  -2
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  0,
+                  0
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -4,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -8,
+                  -4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  0,
+                  0
+                ],
+                "to": [
+                  -4,
+                  -2
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  -1,
+                  -4
+                ],
+                "to": [
+                  3,
+                  -2
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  -4,
+                  -2
+                ],
+                "to": [
+                  -8,
+                  -4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  0,
+                  0
+                ],
+                "to": [
+                  -8,
+                  -4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-13",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -1,
+          5
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              1,
+              -2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              4,
+              -4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              3,
+              4
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              2,
+              2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              1,
+              -2
+            ],
+            "to": [
+              4,
+              -4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              3,
+              4
+            ],
+            "to": [
+              2,
+              2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-4, 2)",
+        "(2, -4)",
+        "(4, 0)",
+        "(-2, -4)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-1,\\ -4-(-2)) = (3,\\ -2)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (2-3,\\ 2-4) = (-1,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (3+(-1),\\ -2+(-2)) = (2,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(2, -4)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -1,
+              5
+            ],
+            "yRange": [
+              -7,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  1,
+                  -2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  4,
+                  -4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  3,
+                  4
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  3,
+                  -6
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  1,
+                  -2
+                ],
+                "to": [
+                  4,
+                  -4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  3,
+                  4
+                ],
+                "to": [
+                  2,
+                  2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  4,
+                  -4
+                ],
+                "to": [
+                  3,
+                  -6
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  1,
+                  -2
+                ],
+                "to": [
+                  3,
+                  -6
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-14",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          4
+        ],
+        "yRange": [
+          -3,
+          3
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              3,
+              2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -4,
+              -1
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -3,
+              -1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              3,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              3,
+              2
+            ],
+            "to": [
+              -4,
+              -1
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -3,
+              -1
+            ],
+            "to": [
+              3,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(13, 2)",
+        "(-13, 2)",
+        "(-1, -4)",
+        "(-13, -2)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-4-3,\\ -1-2) = (-7,\\ -3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-(-3),\\ -2-(-1)) = (6,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (-7-6,\\ -3-(-1)) = (-13,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-13, -2)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -11,
+              4
+            ],
+            "yRange": [
+              -3,
+              3
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  3,
+                  2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -4,
+                  -1
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -3,
+                  -1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  3,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -10,
+                  0
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  3,
+                  2
+                ],
+                "to": [
+                  -4,
+                  -1
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -3,
+                  -1
+                ],
+                "to": [
+                  3,
+                  -2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  -4,
+                  -1
+                ],
+                "to": [
+                  -10,
+                  0
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  3,
+                  2
+                ],
+                "to": [
+                  -10,
+                  0
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-15",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          1
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -3,
+              -4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -2,
+              4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -3,
+              1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -4,
+              -3
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -3,
+              -4
+            ],
+            "to": [
+              -2,
+              4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -3,
+              1
+            ],
+            "to": [
+              -4,
+              -3
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-2, -12)",
+        "(2, -12)",
+        "(0, 4)",
+        "(2, 12)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-(-3),\\ 4-(-4)) = (1,\\ 8)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-4-(-3),\\ -3-1) = (-1,\\ -4)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-1-1,\\ -4-8) = (-2,\\ -12)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-2, -12)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -6,
+              1
+            ],
+            "yRange": [
+              -12,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -3,
+                  -4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -2,
+                  4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -3,
+                  1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -4,
+                  -3
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -5,
+                  -11
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  -3,
+                  1
+                ],
+                "to": [
+                  -4,
+                  -3
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  -3,
+                  -4
+                ],
+                "to": [
+                  -2,
+                  4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  -4,
+                  -3
+                ],
+                "to": [
+                  -5,
+                  -11
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -3,
+                  1
+                ],
+                "to": [
+                  -5,
+                  -11
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-16",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          4
+        ],
+        "yRange": [
+          -4,
+          4
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -2,
+              0
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              1,
+              1
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              3,
+              -3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -3,
+              3
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -2,
+              0
+            ],
+            "to": [
+              1,
+              1
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              3,
+              -3
+            ],
+            "to": [
+              -3,
+              3
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-3, 7)",
+        "(7, -3)",
+        "(9, -5)",
+        "(3, 7)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (1-(-2),\\ 1-0) = (3,\\ 1)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-3-3,\\ 3-(-3)) = (-6,\\ 6)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (3+(-6),\\ 1+6) = (-3,\\ 7)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-3, 7)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -6,
+              4
+            ],
+            "yRange": [
+              -4,
+              8
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -2,
+                  0
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  1,
+                  1
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  3,
+                  -3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -3,
+                  3
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -5,
+                  7
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -2,
+                  0
+                ],
+                "to": [
+                  1,
+                  1
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  3,
+                  -3
+                ],
+                "to": [
+                  -3,
+                  3
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  1,
+                  1
+                ],
+                "to": [
+                  -5,
+                  7
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -2,
+                  0
+                ],
+                "to": [
+                  -5,
+                  7
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-17",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -3,
+          4
+        ],
+        "yRange": [
+          -4,
+          1
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              0,
+              -3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -2,
+              -3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              1,
+              0
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              3,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              0,
+              -3
+            ],
+            "to": [
+              -2,
+              -3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              1,
+              0
+            ],
+            "to": [
+              3,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(4, -2)",
+        "(0, -2)",
+        "(-4, -2)",
+        "(-4, 2)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-0,\\ -3-(-3)) = (-2,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-1,\\ -2-0) = (2,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (-2-2,\\ 0-(-2)) = (-4,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-4, 2)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              4
+            ],
+            "yRange": [
+              -4,
+              1
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  0,
+                  -3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -2,
+                  -3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  1,
+                  0
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  3,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -4,
+                  -1
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  0,
+                  -3
+                ],
+                "to": [
+                  -2,
+                  -3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  1,
+                  0
+                ],
+                "to": [
+                  3,
+                  -2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  -2,
+                  -3
+                ],
+                "to": [
+                  -4,
+                  -1
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  0,
+                  -3
+                ],
+                "to": [
+                  -4,
+                  -1
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-18",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          1
+        ],
+        "yRange": [
+          -4,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -2,
+              4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -4,
+              4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              0,
+              -3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              0,
+              4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -2,
+              4
+            ],
+            "to": [
+              -4,
+              4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              0,
+              -3
+            ],
+            "to": [
+              0,
+              4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(2, -7)",
+        "(-2, -7)",
+        "(2, 7)",
+        "(-2, 7)"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-4-(-2),\\ 4-4) = (-2,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (0-0,\\ 4-(-3)) = (0,\\ 7)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (0-(-2),\\ 7-0) = (2,\\ 7)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(2, 7)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              3
+            ],
+            "yRange": [
+              -4,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -2,
+                  4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -4,
+                  4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  0,
+                  -3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  0,
+                  -3
+                ],
+                "to": [
+                  0,
+                  4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  -2,
+                  4
+                ],
+                "to": [
+                  -4,
+                  4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  0,
+                  4
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  0,
+                  -3
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-19",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          5
+        ],
+        "yRange": [
+          -2,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -1,
+              4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              4,
+              4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              1,
+              -1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -1,
+              -1
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -1,
+              4
+            ],
+            "to": [
+              4,
+              4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              1,
+              -1
+            ],
+            "to": [
+              -1,
+              -1
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(7, 0)",
+        "(3, 0)",
+        "(0, 3)",
+        "(-3, 0)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (4-(-1),\\ 4-4) = (5,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-1-1,\\ -1-(-1)) = (-2,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (5+(-2),\\ 0+0) = (3,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(3, 0)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              5
+            ],
+            "yRange": [
+              -2,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -1,
+                  4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  4,
+                  4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  1,
+                  -1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -1,
+                  -1
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -1,
+                  4
+                ],
+                "to": [
+                  4,
+                  4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  1,
+                  -1
+                ],
+                "to": [
+                  -1,
+                  -1
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  4,
+                  4
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -1,
+                  4
+                ],
+                "to": [
+                  2,
+                  4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-20",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          4
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -1,
+              4
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              3,
+              1
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -4,
+              -4
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              0,
+              3
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -1,
+              4
+            ],
+            "to": [
+              3,
+              1
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -4,
+              -4
+            ],
+            "to": [
+              0,
+              3
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(0, -10)",
+        "(1, -11)",
+        "(8, 4)",
+        "(0, 10)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (3-(-1),\\ 1-4) = (4,\\ -3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (0-(-4),\\ 3-(-4)) = (4,\\ 7)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (4-4,\\ -3-7) = (0,\\ -10)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(0, -10)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              4
+            ],
+            "yRange": [
+              -7,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -1,
+                  4
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -4,
+                  -4
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  0,
+                  3
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -1,
+                  -6
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -1,
+                  4
+                ],
+                "to": [
+                  3,
+                  1
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -4,
+                  -4
+                ],
+                "to": [
+                  0,
+                  3
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -1,
+                  -6
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -1,
+                  4
+                ],
+                "to": [
+                  -1,
+                  -6
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-21",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          2
+        ],
+        "yRange": [
+          -4,
+          4
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              1,
+              -3
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -1,
+              -3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -1,
+              3
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -1,
+              1
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              1,
+              -3
+            ],
+            "to": [
+              -1,
+              -3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -1,
+              3
+            ],
+            "to": [
+              -1,
+              1
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-2, -2)",
+        "(2, -2)",
+        "(2, 2)",
+        "(-2, 2)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-1-1,\\ -3-(-3)) = (-2,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-1-(-1),\\ 1-3) = (0,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (0-(-2),\\ -2-0) = (2,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(2, -2)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              2
+            ],
+            "yRange": [
+              -4,
+              4
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  1,
+                  -3
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -1,
+                  -3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -1,
+                  3
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -1,
+                  1
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  1,
+                  1
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  -1,
+                  3
+                ],
+                "to": [
+                  -1,
+                  1
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  1,
+                  -3
+                ],
+                "to": [
+                  -1,
+                  -3
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  -1,
+                  1
+                ],
+                "to": [
+                  1,
+                  1
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -1,
+                  3
+                ],
+                "to": [
+                  1,
+                  1
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-22",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          4
+        ],
+        "yRange": [
+          -4,
+          2
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              3,
+              1
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -3,
+              -3
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              2,
+              -1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              3,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              3,
+              1
+            ],
+            "to": [
+              -3,
+              -3
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              2,
+              -1
+            ],
+            "to": [
+              3,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-5, -5)",
+        "(-7, -3)",
+        "(5, -5)",
+        "(-5, 5)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-3-3,\\ -3-1) = (-6,\\ -4)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (3-2,\\ -2-(-1)) = (1,\\ -1)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-6+1,\\ -4+(-1)) = (-5,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-5, -5)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -4,
+              4
+            ],
+            "yRange": [
+              -5,
+              2
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -3,
+                  -3
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  2,
+                  -1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  3,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -2,
+                  -4
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -3,
+                  -3
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  2,
+                  -1
+                ],
+                "to": [
+                  3,
+                  -2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  -3,
+                  -3
+                ],
+                "to": [
+                  -2,
+                  -4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -2,
+                  -4
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-23",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}-\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -4,
+          4
+        ],
+        "yRange": [
+          -3,
+          3
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              -3,
+              2
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              3,
+              2
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              -3,
+              -2
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -2,
+              -2
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              -3,
+              2
+            ],
+            "to": [
+              3,
+              2
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              -3,
+              -2
+            ],
+            "to": [
+              -2,
+              -2
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(7, 0)",
+        "(5, 0)",
+        "(-5, 0)",
+        "(3, -1)"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (3-(-3),\\ 2-2) = (6,\\ 0)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-2-(-3),\\ -2-(-2)) = (1,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{AB}-\\vec{CD}=\\vec{AB}+(-\\vec{CD})$. Invertim el sentit de $\\vec{CD}$ i l'enganxem a l'extrem de $\\vec{AB}$ (regla del triangle). El resultat va de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}-\\vec{CD} = (6-1,\\ 0-0) = (5,\\ 0)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(5, 0)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -4,
+              4
+            ],
+            "yRange": [
+              -3,
+              3
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  -3,
+                  2
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  3,
+                  2
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  -3,
+                  -2
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -2,
+                  -2
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  -3,
+                  2
+                ],
+                "to": [
+                  3,
+                  2
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  -3,
+                  -2
+                ],
+                "to": [
+                  -2,
+                  -2
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "-CD",
+                "from": [
+                  3,
+                  2
+                ],
+                "to": [
+                  2,
+                  2
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  -3,
+                  2
+                ],
+                "to": [
+                  2,
+                  2
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-24",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{CD}-\\vec{AB}$ amb origen al punt $C$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -5,
+          5
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              3,
+              1
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -2,
+              4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              4,
+              -2
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              -4,
+              -4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              3,
+              1
+            ],
+            "to": [
+              -2,
+              4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              4,
+              -2
+            ],
+            "to": [
+              -4,
+              -4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(3, 5)",
+        "(3, -5)",
+        "(-13, 1)",
+        "(-3, -5)"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-2-3,\\ 4-1) = (-5,\\ 3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (-4-4,\\ -4-(-2)) = (-8,\\ -2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per restar gràficament fem $\\vec{CD}-\\vec{AB}=\\vec{CD}+(-\\vec{AB})$. Invertim el sentit de $\\vec{AB}$ i l'enganxem a l'extrem de $\\vec{CD}$ (regla del triangle). El resultat va de $C$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD}-\\vec{AB} = (-8-(-5),\\ -2-3) = (-3,\\ -5)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-3, -5)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -5,
+              5
+            ],
+            "yRange": [
+              -8,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  3,
+                  1
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -2,
+                  4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  4,
+                  -2
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  -4,
+                  -4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  1,
+                  -7
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "CD",
+                "from": [
+                  4,
+                  -2
+                ],
+                "to": [
+                  -4,
+                  -4
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "",
+                "from": [
+                  3,
+                  1
+                ],
+                "to": [
+                  -2,
+                  4
+                ],
+                "color": "#d33",
+                "dashed": true
+              },
+              {
+                "label": "-AB",
+                "from": [
+                  -4,
+                  -4
+                ],
+                "to": [
+                  1,
+                  -7
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  4,
+                  -2
+                ],
+                "to": [
+                  1,
+                  -7
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vg-25",
+      "statement": "Observa el gràfic. Construeix gràficament $\\vec{AB}+\\vec{CD}$ amb origen al punt $A$ (regla del triangle o del paral·lelogram). Quines són les components del vector resultant?",
+      "graphic": {
+        "kind": "vector-plot",
+        "xRange": [
+          -2,
+          3
+        ],
+        "yRange": [
+          -5,
+          5
+        ],
+        "gridStep": 1,
+        "points": [
+          {
+            "label": "A",
+            "at": [
+              2,
+              -1
+            ]
+          },
+          {
+            "label": "B",
+            "at": [
+              -1,
+              -4
+            ]
+          },
+          {
+            "label": "C",
+            "at": [
+              0,
+              -1
+            ]
+          },
+          {
+            "label": "D",
+            "at": [
+              0,
+              4
+            ]
+          }
+        ],
+        "vectors": [
+          {
+            "label": "AB",
+            "from": [
+              2,
+              -1
+            ],
+            "to": [
+              -1,
+              -4
+            ],
+            "color": "#d33"
+          },
+          {
+            "label": "CD",
+            "from": [
+              0,
+              -1
+            ],
+            "to": [
+              0,
+              4
+            ],
+            "color": "#36c"
+          }
+        ]
+      },
+      "options": [
+        "(-3, 2)",
+        "(3, 2)",
+        "(2, -3)",
+        "(-3, -8)"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer identifiquem les components dels vectors observant el gràfic (restant l'origen al punt d'arribada)."
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB} = B - A = (-1-2,\\ -4-(-1)) = (-3,\\ -3)"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{CD} = D - C = (0-0,\\ 4-(-1)) = (0,\\ 5)"
+        },
+        {
+          "kind": "text",
+          "text": "Apliquem la regla del triangle: dibuixem $\\vec{AB}$ amb origen a $A$ i, al seu extrem, enganxem $\\vec{CD}$ (mantenint-ne direcció, sentit i longitud). El vector resultant $\\vec{AB}+\\vec{CD}$ va des de $A$ fins al nou extrem."
+        },
+        {
+          "kind": "text",
+          "text": "Les components del vector resultant són la suma o resta, component a component, dels vectors de partida:"
+        },
+        {
+          "kind": "math",
+          "tex": "\\vec{AB}+\\vec{CD} = (-3+0,\\ -3+5) = (-3,\\ 2)"
+        },
+        {
+          "kind": "text",
+          "text": "Per tant, el vector resultant té components $(-3, 2)$. Al gràfic es veu en verd, amb extrem marcat com a $R$."
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "vector-plot",
+            "xRange": [
+              -2,
+              3
+            ],
+            "yRange": [
+              -5,
+              5
+            ],
+            "gridStep": 1,
+            "points": [
+              {
+                "label": "A",
+                "at": [
+                  2,
+                  -1
+                ]
+              },
+              {
+                "label": "B",
+                "at": [
+                  -1,
+                  -4
+                ]
+              },
+              {
+                "label": "C",
+                "at": [
+                  0,
+                  -1
+                ]
+              },
+              {
+                "label": "D",
+                "at": [
+                  0,
+                  4
+                ]
+              },
+              {
+                "label": "R",
+                "at": [
+                  -1,
+                  1
+                ]
+              }
+            ],
+            "vectors": [
+              {
+                "label": "AB",
+                "from": [
+                  2,
+                  -1
+                ],
+                "to": [
+                  -1,
+                  -4
+                ],
+                "color": "#d33"
+              },
+              {
+                "label": "",
+                "from": [
+                  0,
+                  -1
+                ],
+                "to": [
+                  0,
+                  4
+                ],
+                "color": "#36c",
+                "dashed": true
+              },
+              {
+                "label": "CD",
+                "from": [
+                  -1,
+                  -4
+                ],
+                "to": [
+                  -1,
+                  1
+                ],
+                "color": "#36c"
+              },
+              {
+                "label": "Resultant",
+                "from": [
+                  2,
+                  -1
+                ],
+                "to": [
+                  -1,
+                  1
+                ],
+                "color": "#0a8f3f"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

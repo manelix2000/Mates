@@ -1,0 +1,4585 @@
+{
+  "id": "shapes-perimeter-area",
+  "name": "Perímetres i àrees de figures planes",
+  "description": "Càlcul de perímetres i àrees de figures bàsiques i compostes.",
+  "questions": [
+    {
+      "id": "shape-001",
+      "statement": "Calcula el perímetre d'un quadrat de costat 6 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          8,
+          8,
+          30,
+          30
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                20,
+                20
+              ],
+              [
+                26,
+                20
+              ],
+              [
+                26,
+                26
+              ],
+              [
+                20,
+                26
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              23.0,
+              16
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              23.0,
+              23.0
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$36\\ \\text{cm}^2$",
+        "$12\\ \\text{cm}$",
+        "$24\\ \\text{cm}$",
+        "$18\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El perímetre d'un quadrat és la suma dels seus 4 costats iguals."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 4 \\cdot 6 = 24\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              8,
+              8,
+              30,
+              30
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    26,
+                    20
+                  ],
+                  [
+                    26,
+                    26
+                  ],
+                  [
+                    20,
+                    26
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  23.0,
+                  16
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  23.0,
+                  23.0
+                ],
+                "text": "P = 24 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-002",
+      "statement": "Calcula l'àrea d'un quadrat de costat 9 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          8,
+          8,
+          33,
+          33
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                20,
+                20
+              ],
+              [
+                29,
+                20
+              ],
+              [
+                29,
+                29
+              ],
+              [
+                20,
+                29
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              24.5,
+              16
+            ],
+            "text": "9 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              24.5,
+              24.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$81\\ \\text{cm}^2$",
+        "$36\\ \\text{cm}$",
+        "$18\\ \\text{cm}^2$",
+        "$36\\ \\text{cm}^2$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea d'un quadrat és el costat multiplicat per ell mateix."
+        },
+        {
+          "kind": "math",
+          "tex": "A = 9^2 = 81\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              8,
+              8,
+              33,
+              33
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    20,
+                    20
+                  ],
+                  [
+                    29,
+                    20
+                  ],
+                  [
+                    29,
+                    29
+                  ],
+                  [
+                    20,
+                    29
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  24.5,
+                  16
+                ],
+                "text": "9 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  24.5,
+                  24.5
+                ],
+                "text": "A = 81 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-003",
+      "statement": "Calcula el perímetre d'un rectangle de base 10 cm i altura 5 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          34,
+          29
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                15
+              ],
+              [
+                25,
+                15
+              ],
+              [
+                25,
+                20
+              ],
+              [
+                15,
+                20
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              20.0,
+              11
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              17.5
+            ],
+            "text": "5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              20.0,
+              17.5
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$50\\ \\text{cm}^2$",
+        "$15\\ \\text{cm}$",
+        "$40\\ \\text{cm}$",
+        "$30\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El perímetre d'un rectangle és 2 vegades la base més 2 vegades l'altura."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 2\\cdot10 + 2\\cdot5 = 30\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              34,
+              29
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    25,
+                    15
+                  ],
+                  [
+                    25,
+                    20
+                  ],
+                  [
+                    15,
+                    20
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  20.0,
+                  11
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  17.5
+                ],
+                "text": "5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  20.0,
+                  17.5
+                ],
+                "text": "P = 30 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-004",
+      "statement": "Calcula l'àrea d'un rectangle de base 12 cm i altura 7 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          36,
+          31
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                15
+              ],
+              [
+                27,
+                15
+              ],
+              [
+                27,
+                22
+              ],
+              [
+                15,
+                22
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              21.0,
+              11
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              18.5
+            ],
+            "text": "7 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              21.0,
+              18.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$38\\ \\text{cm}$",
+        "$84\\ \\text{cm}^2$",
+        "$19\\ \\text{cm}^2$",
+        "$168\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea d'un rectangle és la base per l'altura."
+        },
+        {
+          "kind": "math",
+          "tex": "A = 12 \\cdot 7 = 84\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              36,
+              31
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    15
+                  ],
+                  [
+                    27,
+                    15
+                  ],
+                  [
+                    27,
+                    22
+                  ],
+                  [
+                    15,
+                    22
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  21.0,
+                  11
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  18.5
+                ],
+                "text": "7 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  21.0,
+                  18.5
+                ],
+                "text": "A = 84 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-005",
+      "statement": "Un rectangle té 15 cm de base i 4 cm d'altura. Calcula la seva àrea.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -2,
+          3,
+          39,
+          28
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                25,
+                15
+              ],
+              [
+                25,
+                19
+              ],
+              [
+                10,
+                19
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              17.5,
+              11
+            ],
+            "text": "15 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              17.0
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              17.5,
+              17.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$38\\ \\text{cm}$",
+        "$19\\ \\text{cm}^2$",
+        "$60\\ \\text{cm}^2$",
+        "$30\\ \\text{cm}^2$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A = b \\cdot h = 15 \\cdot 4 = 60\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -2,
+              3,
+              39,
+              28
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    25,
+                    15
+                  ],
+                  [
+                    25,
+                    19
+                  ],
+                  [
+                    10,
+                    19
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  17.5,
+                  11
+                ],
+                "text": "15 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  17.0
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  17.5,
+                  17.0
+                ],
+                "text": "A = 60 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-006",
+      "statement": "Calcula el perímetre d'un triangle rectangle amb catets de 12 cm i 5 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          36,
+          29
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                27,
+                20
+              ],
+              [
+                15,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              21.0,
+              24
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              17.5
+            ],
+            "text": "5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              22.0,
+              15.5
+            ],
+            "text": "13 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              19.0,
+              18.5
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$30\\ \\text{cm}^2$",
+        "$17\\ \\text{cm}$",
+        "$34\\ \\text{cm}$",
+        "$30\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer trobem la hipotenusa amb el teorema de Pitàgores."
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{hip} = \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13\\ \\text{cm}"
+        },
+        {
+          "kind": "math",
+          "tex": "P = 12 + 5 + 13 = 30\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              36,
+              29
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    27,
+                    20
+                  ],
+                  [
+                    15,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  21.0,
+                  24
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  17.5
+                ],
+                "text": "5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  22.0,
+                  15.5
+                ],
+                "text": "13 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  19.0,
+                  18.5
+                ],
+                "text": "P = 30 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-007",
+      "statement": "Calcula l'àrea d'un triangle rectangle amb catets de 8 cm i 6 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          32,
+          30
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                21
+              ],
+              [
+                23,
+                21
+              ],
+              [
+                15,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              19.0,
+              25
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              18.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              17.667,
+              19.2
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$48\\ \\text{cm}^2$",
+        "$24\\ \\text{cm}^2$",
+        "$14\\ \\text{cm}$",
+        "$14\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "En un triangle rectangle, els dos catets són la base i l'altura."
+        },
+        {
+          "kind": "math",
+          "tex": "A = \\dfrac{b \\cdot h}{2} = \\dfrac{8 \\cdot 6}{2} = 24\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              32,
+              30
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    21
+                  ],
+                  [
+                    23,
+                    21
+                  ],
+                  [
+                    15,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  19.0,
+                  25
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  18.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  17.667,
+                  19.2
+                ],
+                "text": "A = 24 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-008",
+      "statement": "Un triangle rectangle té catets de 9 cm i 12 cm. Calcula la seva àrea.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          33,
+          36
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                27
+              ],
+              [
+                24,
+                27
+              ],
+              [
+                15,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              19.5,
+              31
+            ],
+            "text": "9 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              21.0
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              18.0,
+              23.4
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$108\\ \\text{cm}^2$",
+        "$36\\ \\text{cm}$",
+        "$54\\ \\text{cm}^2$",
+        "$21\\ \\text{cm}^2$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A = \\dfrac{b \\cdot h}{2} = \\dfrac{9 \\cdot 12}{2} = 54\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              33,
+              36
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    27
+                  ],
+                  [
+                    24,
+                    27
+                  ],
+                  [
+                    15,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  19.5,
+                  31
+                ],
+                "text": "9 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  21.0
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  18.0,
+                  23.4
+                ],
+                "text": "A = 54 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-009",
+      "statement": "Calcula l'àrea d'un trapezi rectangle amb base gran B = 10 cm, base petita b = 6 cm i altura h = 5 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          3,
+          3,
+          34,
+          29
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                25,
+                20
+              ],
+              [
+                21,
+                15
+              ],
+              [
+                15,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              20.0,
+              24
+            ],
+            "text": "B = 10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              18.0,
+              11
+            ],
+            "text": "b = 6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              17.5
+            ],
+            "text": "h = 5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              20.0,
+              17.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$40\\ \\text{cm}^2$",
+        "$80\\ \\text{cm}^2$",
+        "$60\\ \\text{cm}^2$",
+        "$26\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A = \\dfrac{(B+b)\\cdot h}{2} = \\dfrac{(10+6)\\cdot 5}{2} = 40\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              3,
+              3,
+              34,
+              29
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    25,
+                    20
+                  ],
+                  [
+                    21,
+                    15
+                  ],
+                  [
+                    15,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  20.0,
+                  24
+                ],
+                "text": "B = 10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  18.0,
+                  11
+                ],
+                "text": "b = 6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  17.5
+                ],
+                "text": "h = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  20.0,
+                  17.5
+                ],
+                "text": "A = 40 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-010",
+      "statement": "Calcula l'àrea d'un trapezi isòsceles amb bases de 14 cm i 8 cm i altura de 5 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -2,
+          3,
+          38,
+          29
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                20
+              ],
+              [
+                24,
+                20
+              ],
+              [
+                21.0,
+                15
+              ],
+              [
+                13.0,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              17.0,
+              24
+            ],
+            "text": "B = 14 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              17.0,
+              11
+            ],
+            "text": "b = 8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              17.5
+            ],
+            "text": "h = 5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              17.0,
+              17.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$110\\ \\text{cm}^2$",
+        "$112\\ \\text{cm}^2$",
+        "$55\\ \\text{cm}^2$",
+        "$70\\ \\text{cm}^2$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea d'un trapezi és la semi-suma de les bases per l'altura."
+        },
+        {
+          "kind": "math",
+          "tex": "A = \\dfrac{(B+b)\\cdot h}{2} = \\dfrac{(14+8)\\cdot 5}{2} = 55\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -2,
+              3,
+              38,
+              29
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    20
+                  ],
+                  [
+                    24,
+                    20
+                  ],
+                  [
+                    21.0,
+                    15
+                  ],
+                  [
+                    13.0,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  17.0,
+                  24
+                ],
+                "text": "B = 14 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  17.0,
+                  11
+                ],
+                "text": "b = 8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  17.5
+                ],
+                "text": "h = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  17.0,
+                  17.5
+                ],
+                "text": "A = 55 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-011",
+      "statement": "Un trapezi isòsceles té bases de 12 cm i 6 cm, i els costats oblics mesuren 5 cm cadascun. Calcula'n el perímetre.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -2,
+          3,
+          36,
+          28
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19
+              ],
+              [
+                22,
+                19
+              ],
+              [
+                19.0,
+                15
+              ],
+              [
+                13.0,
+                15
+              ]
+            ],
+            "filled": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              23
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.0,
+              11
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              17.0
+            ],
+            "text": "5 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              23.5,
+              17.0
+            ],
+            "text": "5 cm",
+            "anchor": "start"
+          },
+          {
+            "at": [
+              16.0,
+              17.0
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$36\\ \\text{cm}^2$",
+        "$28\\ \\text{cm}$",
+        "$18\\ \\text{cm}$",
+        "$23\\ \\text{cm}$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El perímetre és la suma dels 4 costats."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 12 + 6 + 2\\cdot5 = 28\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -2,
+              3,
+              36,
+              28
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19
+                  ],
+                  [
+                    22,
+                    19
+                  ],
+                  [
+                    19.0,
+                    15
+                  ],
+                  [
+                    13.0,
+                    15
+                  ]
+                ],
+                "filled": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  23
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.0,
+                  11
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  17.0
+                ],
+                "text": "5 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  23.5,
+                  17.0
+                ],
+                "text": "5 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  16.0,
+                  17.0
+                ],
+                "text": "P = 28 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-012",
+      "statement": "Calcula la longitud (perímetre) d'un cercle de radi 5 cm. Utilitza π ≈ 3,14.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          13,
+          13,
+          34,
+          34
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 5,
+            "filled": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              35,
+              30
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.5,
+              27
+            ],
+            "text": "r = 5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              30,
+              41
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$31.42\\ \\text{cm}$",
+        "$15.71\\ \\text{cm}$",
+        "$78.54\\ \\text{cm}^2$",
+        "$20\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "La longitud d'una circumferència és 2π per el radi."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 2\\pi r = 2\\pi \\cdot 5 = 10\\pi \\approx 31.42\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              13,
+              13,
+              34,
+              34
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 5,
+                "filled": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  35,
+                  30
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.5,
+                  27
+                ],
+                "text": "r = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  41
+                ],
+                "text": "P = 31.42 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-013",
+      "statement": "Calcula l'àrea d'un cercle de radi 3 cm. Utilitza π ≈ 3,14.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          10,
+          10,
+          30,
+          30
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              25,
+              25
+            ],
+            "r": 3,
+            "filled": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              25,
+              25
+            ],
+            "to": [
+              28,
+              25
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              26.5,
+              23
+            ],
+            "text": "r = 3 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              25,
+              32
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$18.85\\ \\text{cm}$",
+        "$18.85\\ \\text{cm}^2$",
+        "$9.42\\ \\text{cm}^2$",
+        "$28.27\\ \\text{cm}^2$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A = \\pi r^2 = \\pi \\cdot 3^2 = 9\\pi \\approx 28.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              10,
+              10,
+              30,
+              30
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  25,
+                  25
+                ],
+                "r": 3,
+                "filled": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  25,
+                  25
+                ],
+                "to": [
+                  28,
+                  25
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  26.5,
+                  23
+                ],
+                "text": "r = 3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  25,
+                  32
+                ],
+                "text": "A = 28.27 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-014",
+      "statement": "Un cercle té diàmetre 12 cm. Calcula la seva àrea (π ≈ 3,14).",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          12.0,
+          12.0,
+          36.0,
+          36.0
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 6.0,
+            "filled": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              24.0,
+              30
+            ],
+            "to": [
+              36.0,
+              30
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              30,
+              28
+            ],
+            "text": "d = 12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              30,
+              42.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$452.39\\ \\text{cm}^2$",
+        "$113.1\\ \\text{cm}^2$",
+        "$37.7\\ \\text{cm}$",
+        "$37.7\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer obtenim el radi dividint el diàmetre entre 2."
+        },
+        {
+          "kind": "math",
+          "tex": "r = \\dfrac{12}{2} = 6\\ \\text{cm}"
+        },
+        {
+          "kind": "math",
+          "tex": "A = \\pi r^2 = \\pi \\cdot 6^2 = 36\\pi \\approx 113.1\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              12.0,
+              12.0,
+              36.0,
+              36.0
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 6.0,
+                "filled": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  24.0,
+                  30
+                ],
+                "to": [
+                  36.0,
+                  30
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  30,
+                  28
+                ],
+                "text": "d = 12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  42.0
+                ],
+                "text": "A = 113.1 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-015",
+      "statement": "La figura és un rectangle de 12 cm per 8 cm amb un semicercle afegit al costat dret (diàmetre = 8 cm). Calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -6,
+          -1,
+          48.0,
+          40
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                22,
+                15
+              ],
+              [
+                22,
+                23
+              ],
+              [
+                10,
+                23
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              22,
+              19.0
+            ],
+            "r": 4.0,
+            "fromDeg": -90,
+            "toDeg": 90,
+            "closed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              22,
+              15
+            ],
+            "to": [
+              22,
+              23
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              11
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              19.0
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              25.0,
+              16.0
+            ],
+            "text": "r = 4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.0,
+              19.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$146.27\\ \\text{cm}^2$",
+        "$96\\ \\text{cm}^2$",
+        "$121.13\\ \\text{cm}^2$",
+        "$196.53\\ \\text{cm}^2$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Descomposem la figura en un rectangle i un semicercle."
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{rect}} = 12 \\cdot 8 = 96\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{semi}} = \\dfrac{\\pi r^2}{2} = \\dfrac{\\pi \\cdot 4^2}{2} = 8\\pi \\approx 25.13\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = A_{\\text{rect}} + A_{\\text{semi}} \\approx 121.13\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -6,
+              -1,
+              48.0,
+              40
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    22,
+                    15
+                  ],
+                  [
+                    22,
+                    23
+                  ],
+                  [
+                    10,
+                    23
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  22,
+                  19.0
+                ],
+                "r": 4.0,
+                "fromDeg": -90,
+                "toDeg": 90,
+                "closed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  22,
+                  15
+                ],
+                "to": [
+                  22,
+                  23
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  11
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  19.0
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  25.0,
+                  16.0
+                ],
+                "text": "r = 4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.0,
+                  19.0
+                ],
+                "text": "A = 121.13 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-016",
+      "statement": "Una finestra té forma de rectangle de 10 cm per 6 cm rematat per un semicercle a la part superior (diàmetre = 10 cm). Calcula l'àrea.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          1,
+          1.0,
+          38,
+          39.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                25,
+                20
+              ],
+              [
+                25,
+                26
+              ],
+              [
+                15,
+                26
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              20.0,
+              20
+            ],
+            "r": 5.0,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "closed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              15,
+              20
+            ],
+            "to": [
+              25,
+              20
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              20.0,
+              30
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              23.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              21.0,
+              15.5
+            ],
+            "text": "r = 5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              20.0,
+              23.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$99.27\\ \\text{cm}^2$",
+        "$138.54\\ \\text{cm}^2$",
+        "$60\\ \\text{cm}^2$",
+        "$47.71\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{rect}} = 10 \\cdot 6 = 60\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{semi}} = \\dfrac{\\pi \\cdot 5^2}{2} = \\dfrac{25\\pi}{2} \\approx 39.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 60 + 39.27 \\approx 99.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              1,
+              1.0,
+              38,
+              39.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    25,
+                    20
+                  ],
+                  [
+                    25,
+                    26
+                  ],
+                  [
+                    15,
+                    26
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  20.0,
+                  20
+                ],
+                "r": 5.0,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "closed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  15,
+                  20
+                ],
+                "to": [
+                  25,
+                  20
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  20.0,
+                  30
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  23.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  21.0,
+                  15.5
+                ],
+                "text": "r = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  20.0,
+                  23.0
+                ],
+                "text": "A = 99.27 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-017",
+      "statement": "La figura és un quadrat de costat 8 cm amb un triangle rectangle a sobre (catets de 8 cm i 5 cm). Calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -1,
+          -1,
+          40,
+          45
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                23,
+                20
+              ],
+              [
+                23,
+                28
+              ],
+              [
+                15,
+                28
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                23,
+                20
+              ],
+              [
+                23,
+                15
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              15,
+              20
+            ],
+            "to": [
+              23,
+              20
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              19.0,
+              32
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              24.0
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              27,
+              17.5
+            ],
+            "text": "5 cm",
+            "anchor": "start"
+          },
+          {
+            "at": [
+              19.0,
+              24.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$104\\ \\text{cm}^2$",
+        "$64\\ \\text{cm}^2$",
+        "$45\\ \\text{cm}$",
+        "$84\\ \\text{cm}^2$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{quad}} = 8^2 = 64\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{tri}} = \\dfrac{8\\cdot 5}{2} = 20\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 64 + 20 = 84\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -1,
+              -1,
+              40,
+              45
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    23,
+                    20
+                  ],
+                  [
+                    23,
+                    28
+                  ],
+                  [
+                    15,
+                    28
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    23,
+                    20
+                  ],
+                  [
+                    23,
+                    15
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  15,
+                  20
+                ],
+                "to": [
+                  23,
+                  20
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  19.0,
+                  32
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  24.0
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  27,
+                  17.5
+                ],
+                "text": "5 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  19.0,
+                  24.0
+                ],
+                "text": "A = 84 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-018",
+      "statement": "La figura està formada per un rectangle de 10 cm × 6 cm i un triangle rectangle a la dreta amb catets de 5 cm i 6 cm. Calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -4,
+          1,
+          43,
+          34
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                20,
+                15
+              ],
+              [
+                20,
+                21
+              ],
+              [
+                10,
+                21
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                20,
+                15
+              ],
+              [
+                25,
+                21
+              ],
+              [
+                20,
+                21
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              20,
+              15
+            ],
+            "to": [
+              20,
+              21
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              15.0,
+              11
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              18.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              23.5,
+              25
+            ],
+            "text": "5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              15.0,
+              18.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$90\\ \\text{cm}^2$",
+        "$75\\ \\text{cm}^2$",
+        "$60\\ \\text{cm}^2$",
+        "$32\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{rect}} = 10 \\cdot 6 = 60\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{tri}} = \\dfrac{5\\cdot 6}{2} = 15\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 60 + 15 = 75\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -4,
+              1,
+              43,
+              34
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    20,
+                    15
+                  ],
+                  [
+                    20,
+                    21
+                  ],
+                  [
+                    10,
+                    21
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    20,
+                    15
+                  ],
+                  [
+                    25,
+                    21
+                  ],
+                  [
+                    20,
+                    21
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  20,
+                  15
+                ],
+                "to": [
+                  20,
+                  21
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  15.0,
+                  11
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  18.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  23.5,
+                  25
+                ],
+                "text": "5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  15.0,
+                  18.0
+                ],
+                "text": "A = 75 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-019",
+      "statement": "La figura té forma de L. Descomposa-la en dos rectangles i calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -6,
+          -1,
+          42,
+          39
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                14,
+                15
+              ],
+              [
+                14,
+                19
+              ],
+              [
+                20,
+                19
+              ],
+              [
+                20,
+                22
+              ],
+              [
+                10,
+                22
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              19
+            ],
+            "to": [
+              14,
+              19
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              12.0,
+              11
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              15.0,
+              26
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              18.5
+            ],
+            "text": "7 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              17.0,
+              16
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              24,
+              17.0
+            ],
+            "text": "4 cm",
+            "anchor": "start"
+          },
+          {
+            "at": [
+              12.0,
+              18.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$70\\ \\text{cm}^2$",
+        "$22\\ \\text{cm}^2$",
+        "$46\\ \\text{cm}^2$",
+        "$34\\ \\text{cm}$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Dividim la L en un rectangle inferior (10 × 3) i un rectangle superior esquerre (4 × 4)."
+        },
+        {
+          "kind": "math",
+          "tex": "A_1 = 10 \\cdot 3 = 30\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_2 = 4 \\cdot 4 = 16\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = A_1 + A_2 = 46\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -6,
+              -1,
+              42,
+              39
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    14,
+                    15
+                  ],
+                  [
+                    14,
+                    19
+                  ],
+                  [
+                    20,
+                    19
+                  ],
+                  [
+                    20,
+                    22
+                  ],
+                  [
+                    10,
+                    22
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  19
+                ],
+                "to": [
+                  14,
+                  19
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  12.0,
+                  11
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  15.0,
+                  26
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  18.5
+                ],
+                "text": "7 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  17.0,
+                  16
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  24,
+                  17.0
+                ],
+                "text": "4 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  12.0,
+                  20.5
+                ],
+                "text": "A = 46 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-020",
+      "statement": "Una placa rectangular de 14 cm × 10 cm té un forat circular de radi 3 cm al centre. Calcula l'àrea de la placa restant (π ≈ 3,14).",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -4,
+          1,
+          42,
+          38
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                24,
+                15
+              ],
+              [
+                24,
+                25
+              ],
+              [
+                10,
+                25
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "circle",
+            "center": [
+              17.0,
+              20.0
+            ],
+            "r": 3,
+            "filled": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              17.0,
+              11
+            ],
+            "text": "14 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              20.0
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              19.5,
+              18.0
+            ],
+            "text": "r = 3 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              13.08,
+              17.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$168.27\\ \\text{cm}^2$",
+        "$140\\ \\text{cm}^2$",
+        "$121.15\\ \\text{cm}^2$",
+        "$111.73\\ \\text{cm}^2$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{rect}} = 14 \\cdot 10 = 140\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{cercle}} = \\pi r^2 = 9\\pi \\approx 28.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = A_{\\text{rect}} - A_{\\text{cercle}} \\approx 111.73\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -4,
+              1,
+              42,
+              38
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    24,
+                    15
+                  ],
+                  [
+                    24,
+                    25
+                  ],
+                  [
+                    10,
+                    25
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "circle",
+                "center": [
+                  17.0,
+                  20.0
+                ],
+                "r": 3,
+                "filled": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  17.0,
+                  11
+                ],
+                "text": "14 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  20.0
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  19.5,
+                  18.0
+                ],
+                "text": "r = 3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  13.08,
+                  17.5
+                ],
+                "text": "A = 111.73 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-021",
+      "statement": "La figura està formada per un trapezi isòsceles (bases 12 cm i 6 cm, altura 4 cm) damunt d'un rectangle de 12 cm × 5 cm. Calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -4,
+          1,
+          40,
+          37
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19
+              ],
+              [
+                22,
+                19
+              ],
+              [
+                19.0,
+                15
+              ],
+              [
+                13.0,
+                15
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19
+              ],
+              [
+                22,
+                19
+              ],
+              [
+                22,
+                24
+              ],
+              [
+                10,
+                24
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              19
+            ],
+            "to": [
+              22,
+              19
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              11
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.0,
+              28
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              17.0
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              26,
+              21.5
+            ],
+            "text": "5 cm",
+            "anchor": "start"
+          },
+          {
+            "at": [
+              16.0,
+              21.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$132\\ \\text{cm}^2$",
+        "$108\\ \\text{cm}^2$",
+        "$96\\ \\text{cm}^2$",
+        "$60\\ \\text{cm}^2$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{trap}} = \\dfrac{(12+6)\\cdot 4}{2} = 36\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{rect}} = 12 \\cdot 5 = 60\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 36 + 60 = 96\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -4,
+              1,
+              40,
+              37
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19
+                  ],
+                  [
+                    22,
+                    19
+                  ],
+                  [
+                    19.0,
+                    15
+                  ],
+                  [
+                    13.0,
+                    15
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19
+                  ],
+                  [
+                    22,
+                    19
+                  ],
+                  [
+                    22,
+                    24
+                  ],
+                  [
+                    10,
+                    24
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  19
+                ],
+                "to": [
+                  22,
+                  19
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  11
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.0,
+                  28
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  17.0
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  26,
+                  21.5
+                ],
+                "text": "5 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  16.0,
+                  21.5
+                ],
+                "text": "A = 96 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-022",
+      "statement": "La figura és un rectangle de 12 cm × 8 cm amb un semicercle al costat dret (diàmetre = 8 cm). Calcula'n el perímetre (π ≈ 3,14).",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -6,
+          -1,
+          48.0,
+          40
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                22,
+                15
+              ],
+              [
+                22,
+                23
+              ],
+              [
+                10,
+                23
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              22,
+              19.0
+            ],
+            "r": 4.0,
+            "fromDeg": -90,
+            "toDeg": 90,
+            "closed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              15
+            ],
+            "to": [
+              22,
+              15
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              23
+            ],
+            "to": [
+              22,
+              23
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              15
+            ],
+            "to": [
+              10,
+              23
+            ]
+          },
+          {
+            "type": "arc",
+            "center": [
+              22,
+              19.0
+            ],
+            "r": 4.0,
+            "fromDeg": -90,
+            "toDeg": 90
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              11
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              19.0
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              25.0,
+              16.0
+            ],
+            "text": "r = 4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.0,
+              19.0
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$65.13\\ \\text{cm}$",
+        "$44.57\\ \\text{cm}$",
+        "$57.13\\ \\text{cm}$",
+        "$121.13\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El perímetre inclou 3 costats del rectangle (no el de la dreta, que el substitueix el semicercle) més l'arc del semicercle."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 12 + 8 + 12 + \\pi r = 32 + \\pi \\cdot 4 \\approx 44.57\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -6,
+              -1,
+              48.0,
+              40
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    22,
+                    15
+                  ],
+                  [
+                    22,
+                    23
+                  ],
+                  [
+                    10,
+                    23
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  22,
+                  19.0
+                ],
+                "r": 4.0,
+                "fromDeg": -90,
+                "toDeg": 90,
+                "closed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  15
+                ],
+                "to": [
+                  22,
+                  15
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  23
+                ],
+                "to": [
+                  22,
+                  23
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  15
+                ],
+                "to": [
+                  10,
+                  23
+                ]
+              },
+              {
+                "type": "arc",
+                "center": [
+                  22,
+                  19.0
+                ],
+                "r": 4.0,
+                "fromDeg": -90,
+                "toDeg": 90
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  11
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  19.0
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  25.0,
+                  16.0
+                ],
+                "text": "r = 4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.0,
+                  19.0
+                ],
+                "text": "P = 44.57 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-023",
+      "statement": "Un tapís té forma d'un quadrat de 10 cm de costat amb un semicercle a la part superior (diàmetre = 10 cm). Calcula'n l'àrea total (π ≈ 3,14).",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          1,
+          1.0,
+          38,
+          43.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                15,
+                20
+              ],
+              [
+                25,
+                20
+              ],
+              [
+                25,
+                30
+              ],
+              [
+                15,
+                30
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              20.0,
+              20
+            ],
+            "r": 5.0,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "closed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              15,
+              20
+            ],
+            "to": [
+              25,
+              20
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              20.0,
+              34
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              9,
+              25.0
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              21.0,
+              15.5
+            ],
+            "text": "r = 5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              20.0,
+              25.0
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$178.54\\ \\text{cm}^2$",
+        "$139.27\\ \\text{cm}^2$",
+        "$100\\ \\text{cm}^2$",
+        "$257.08\\ \\text{cm}^2$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_{\\text{quad}} = 10^2 = 100\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{\\text{semi}} = \\dfrac{\\pi \\cdot 5^2}{2} = \\dfrac{25\\pi}{2} \\approx 39.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 100 + 39.27 \\approx 139.27\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              1,
+              1.0,
+              38,
+              43.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    15,
+                    20
+                  ],
+                  [
+                    25,
+                    20
+                  ],
+                  [
+                    25,
+                    30
+                  ],
+                  [
+                    15,
+                    30
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  20.0,
+                  20
+                ],
+                "r": 5.0,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "closed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  15,
+                  20
+                ],
+                "to": [
+                  25,
+                  20
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  20.0,
+                  34
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  9,
+                  25.0
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  21.0,
+                  15.5
+                ],
+                "text": "r = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  20.0,
+                  25.0
+                ],
+                "text": "A = 139.27 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-024",
+      "statement": "La figura està formada per un rectangle de 9 cm × 6 cm amb un triangle rectangle al damunt (catets de 9 cm i 4 cm). Calcula el perímetre (contorn exterior).",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -4,
+          1,
+          37,
+          38
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19
+              ],
+              [
+                19,
+                19
+              ],
+              [
+                19,
+                25
+              ],
+              [
+                10,
+                25
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19
+              ],
+              [
+                19,
+                19
+              ],
+              [
+                10,
+                15
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              19
+            ],
+            "to": [
+              19,
+              19
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              14.5,
+              29
+            ],
+            "text": "9 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              22.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              17.0
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.5,
+              14.0
+            ],
+            "text": "9.85 cm",
+            "anchor": "middle",
+            "color": "muted"
+          },
+          {
+            "at": [
+              14.5,
+              22.0
+            ],
+            "text": "P = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$43\\ \\text{cm}$",
+        "$28\\ \\text{cm}$",
+        "$72\\ \\text{cm}^2$",
+        "$34.85\\ \\text{cm}$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer calculem la hipotenusa del triangle amb Pitàgores."
+        },
+        {
+          "kind": "math",
+          "tex": "\\text{hip} = \\sqrt{9^2 + 4^2} = \\sqrt{97} = 9.85\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El contorn exterior recorre: base del rectangle, costat dret, hipotenusa del triangle i costat esquerre (rectangle + triangle)."
+        },
+        {
+          "kind": "math",
+          "tex": "P = 9 + 6 + 9.85 + (6 + 4) = 34.85\\ \\text{cm}"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -4,
+              1,
+              37,
+              38
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19
+                  ],
+                  [
+                    19,
+                    19
+                  ],
+                  [
+                    19,
+                    25
+                  ],
+                  [
+                    10,
+                    25
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19
+                  ],
+                  [
+                    19,
+                    19
+                  ],
+                  [
+                    10,
+                    15
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  19
+                ],
+                "to": [
+                  19,
+                  19
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  14.5,
+                  29
+                ],
+                "text": "9 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  22.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  17.0
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.5,
+                  14.0
+                ],
+                "text": "9.85 cm",
+                "anchor": "middle",
+                "color": "muted"
+              },
+              {
+                "at": [
+                  14.5,
+                  22.0
+                ],
+                "text": "P = 34.85 cm",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shape-025",
+      "statement": "La figura té forma de T: un rectangle horitzontal superior de 12 cm × 3 cm i un rectangle vertical inferior de 4 cm × 7 cm, centrat sota del primer. Calcula l'àrea total.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          -4,
+          1,
+          40,
+          38
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                15
+              ],
+              [
+                22,
+                15
+              ],
+              [
+                22,
+                18
+              ],
+              [
+                10,
+                18
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                14.0,
+                18
+              ],
+              [
+                18.0,
+                18
+              ],
+              [
+                18.0,
+                25
+              ],
+              [
+                14.0,
+                25
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              14.0,
+              18
+            ],
+            "to": [
+              18.0,
+              18
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              11
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              4,
+              16.5
+            ],
+            "text": "3 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.0,
+              29
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              22.0,
+              21.5
+            ],
+            "text": "7 cm",
+            "anchor": "start"
+          },
+          {
+            "at": [
+              16.0,
+              16.5
+            ],
+            "text": "A = ?",
+            "anchor": "middle",
+            "color": "highlight",
+            "bold": true
+          }
+        ]
+      },
+      "options": [
+        "$64\\ \\text{cm}^2$",
+        "$120\\ \\text{cm}^2$",
+        "$36\\ \\text{cm}^2$",
+        "$52\\ \\text{cm}$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "math",
+          "tex": "A_1 = 12 \\cdot 3 = 36\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A_2 = 4 \\cdot 7 = 28\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "A = 36 + 28 = 64\\ \\text{cm}^2"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              -4,
+              1,
+              40,
+              38
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    15
+                  ],
+                  [
+                    22,
+                    15
+                  ],
+                  [
+                    22,
+                    18
+                  ],
+                  [
+                    10,
+                    18
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    14.0,
+                    18
+                  ],
+                  [
+                    18.0,
+                    18
+                  ],
+                  [
+                    18.0,
+                    25
+                  ],
+                  [
+                    14.0,
+                    25
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  14.0,
+                  18
+                ],
+                "to": [
+                  18.0,
+                  18
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  11
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  4,
+                  16.5
+                ],
+                "text": "3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.0,
+                  29
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  22.0,
+                  21.5
+                ],
+                "text": "7 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  16.0,
+                  16.5
+                ],
+                "text": "A = 64 cm²",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
