@@ -29,6 +29,11 @@
       "id": "shapes-perimeter-area",
       "name": "Perímetres i àrees de figures planes",
       "file": "shapes-perimeter-area.json"
+    },
+    {
+      "id": "volumes",
+      "name": "Volums de cossos geomètrics",
+      "file": "volumes.json"
     }
   ]
 }

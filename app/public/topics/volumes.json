@@ -1,0 +1,6101 @@
+{
+  "id": "volumes",
+  "name": "Volums de cossos geomètrics",
+  "description": "Càlcul de volums de prismes, cilindres, piràmides, cons i esferes.",
+  "questions": [
+    {
+      "id": "vol-001",
+      "statement": "Calcula el volum d'un prisma rectangular de 8 cm × 5 cm × 4 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          16.5,
+          12.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                16.0
+              ],
+              [
+                18,
+                16.0
+              ],
+              [
+                18,
+                12.0
+              ],
+              [
+                10,
+                12.0
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                12.0
+              ],
+              [
+                12.5,
+                10
+              ],
+              [
+                20.5,
+                10
+              ],
+              [
+                18,
+                12.0
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                18,
+                12.0
+              ],
+              [
+                20.5,
+                10
+              ],
+              [
+                20.5,
+                14
+              ],
+              [
+                18,
+                16.0
+              ]
+            ],
+            "filled": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              14.0,
+              17.5
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              14.0
+            ],
+            "text": "4 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              10.5,
+              10.55
+            ],
+            "text": "5 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$160\\ \\text{cm}^3$",
+        "$92\\ \\text{cm}^3$",
+        "$320\\ \\text{cm}^3$",
+        "$80\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un prisma rectangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\text{llarg} \\times \\text{ample} \\times \\text{alt}"
+        },
+        {
+          "kind": "math",
+          "tex": "V = 8 \\times 5 \\times 4 = 160\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              16.5,
+              12.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    16.0
+                  ],
+                  [
+                    18,
+                    16.0
+                  ],
+                  [
+                    18,
+                    12.0
+                  ],
+                  [
+                    10,
+                    12.0
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    12.0
+                  ],
+                  [
+                    12.5,
+                    10
+                  ],
+                  [
+                    20.5,
+                    10
+                  ],
+                  [
+                    18,
+                    12.0
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    18,
+                    12.0
+                  ],
+                  [
+                    20.5,
+                    10
+                  ],
+                  [
+                    20.5,
+                    14
+                  ],
+                  [
+                    18,
+                    16.0
+                  ]
+                ],
+                "filled": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  14.0,
+                  17.5
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  14.0
+                ],
+                "text": "4 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  10.5,
+                  10.55
+                ],
+                "text": "5 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  15.25,
+                  14.0
+                ],
+                "text": "V = 160 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-002",
+      "statement": "Calcula el volum d'un prisma rectangular de 12 cm × 6 cm × 10 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          21.0,
+          18.4
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                22.4
+              ],
+              [
+                22,
+                22.4
+              ],
+              [
+                22,
+                12.4
+              ],
+              [
+                10,
+                12.4
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                12.4
+              ],
+              [
+                13.0,
+                10
+              ],
+              [
+                25.0,
+                10
+              ],
+              [
+                22,
+                12.4
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                22,
+                12.4
+              ],
+              [
+                25.0,
+                10
+              ],
+              [
+                25.0,
+                20
+              ],
+              [
+                22,
+                22.4
+              ]
+            ],
+            "filled": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              16.0,
+              23.9
+            ],
+            "text": "12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              17.4
+            ],
+            "text": "10 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              10.75,
+              10.75
+            ],
+            "text": "6 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$504\\ \\text{cm}^3$",
+        "$720\\ \\text{cm}^3$",
+        "$28\\ \\text{cm}^3$",
+        "$240\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un prisma rectangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = l \\times a \\times h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = 12 \\times 6 \\times 10 = 720\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              21.0,
+              18.4
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    22.4
+                  ],
+                  [
+                    22,
+                    22.4
+                  ],
+                  [
+                    22,
+                    12.4
+                  ],
+                  [
+                    10,
+                    12.4
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    12.4
+                  ],
+                  [
+                    13.0,
+                    10
+                  ],
+                  [
+                    25.0,
+                    10
+                  ],
+                  [
+                    22,
+                    12.4
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    22,
+                    12.4
+                  ],
+                  [
+                    25.0,
+                    10
+                  ],
+                  [
+                    25.0,
+                    20
+                  ],
+                  [
+                    22,
+                    22.4
+                  ]
+                ],
+                "filled": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  16.0,
+                  23.9
+                ],
+                "text": "12 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  17.4
+                ],
+                "text": "10 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  10.75,
+                  10.75
+                ],
+                "text": "6 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  17.5,
+                  17.4
+                ],
+                "text": "V = 720 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-003",
+      "statement": "Calcula el volum d'un cub d'aresta 7 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          16.5,
+          15.8
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                19.8
+              ],
+              [
+                17,
+                19.8
+              ],
+              [
+                17,
+                12.8
+              ],
+              [
+                10,
+                12.8
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                12.8
+              ],
+              [
+                13.5,
+                10
+              ],
+              [
+                20.5,
+                10
+              ],
+              [
+                17,
+                12.8
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                17,
+                12.8
+              ],
+              [
+                20.5,
+                10
+              ],
+              [
+                20.5,
+                17
+              ],
+              [
+                17,
+                19.8
+              ]
+            ],
+            "filled": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              13.5,
+              21.3
+            ],
+            "text": "7 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              16.3
+            ],
+            "text": "7 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              11.0,
+              10.95
+            ],
+            "text": "7 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$294\\ \\text{cm}^3$",
+        "$49\\ \\text{cm}^3$",
+        "$343\\ \\text{cm}^3$",
+        "$21\\ \\text{cm}^3$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un cub és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = a^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = 7^3 = 343\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              16.5,
+              15.8
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    19.8
+                  ],
+                  [
+                    17,
+                    19.8
+                  ],
+                  [
+                    17,
+                    12.8
+                  ],
+                  [
+                    10,
+                    12.8
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    12.8
+                  ],
+                  [
+                    13.5,
+                    10
+                  ],
+                  [
+                    20.5,
+                    10
+                  ],
+                  [
+                    17,
+                    12.8
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    17,
+                    12.8
+                  ],
+                  [
+                    20.5,
+                    10
+                  ],
+                  [
+                    20.5,
+                    17
+                  ],
+                  [
+                    17,
+                    19.8
+                  ]
+                ],
+                "filled": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  13.5,
+                  21.3
+                ],
+                "text": "7 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  16.3
+                ],
+                "text": "7 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  11.0,
+                  10.95
+                ],
+                "text": "7 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  15.25,
+                  16.3
+                ],
+                "text": "V = 343 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-004",
+      "statement": "Calcula el volum d'un prisma triangular amb base triangular de base 6 cm i altura 8 cm, i profunditat 10 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          6,
+          8,
+          18.5,
+          16.5
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                14.5,
+                18
+              ],
+              [
+                20.5,
+                18
+              ],
+              [
+                17.5,
+                10
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                21.5
+              ],
+              [
+                16,
+                21.5
+              ],
+              [
+                13.0,
+                13.5
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              21.5
+            ],
+            "to": [
+              14.5,
+              18
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              16,
+              21.5
+            ],
+            "to": [
+              20.5,
+              18
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              13.0,
+              13.5
+            ],
+            "to": [
+              17.5,
+              10
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              13.0,
+              23.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              17.5
+            ],
+            "text": "8 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              19.0,
+              15.75
+            ],
+            "text": "10 cm",
+            "anchor": "start"
+          }
+        ]
+      },
+      "options": [
+        "$240\\ \\text{cm}^3$",
+        "$480\\ \\text{cm}^3$",
+        "$160\\ \\text{cm}^3$",
+        "$60\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea de la base triangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{base} = \\frac{6 \\times 8}{2} = 24\\ \\text{cm}^2"
+        },
+        {
+          "kind": "text",
+          "text": "El volum del prisma és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = A_{base} \\times \\text{profunditat} = 24 \\times 10 = 240\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              6,
+              8,
+              18.5,
+              16.5
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    14.5,
+                    18
+                  ],
+                  [
+                    20.5,
+                    18
+                  ],
+                  [
+                    17.5,
+                    10
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    21.5
+                  ],
+                  [
+                    16,
+                    21.5
+                  ],
+                  [
+                    13.0,
+                    13.5
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  21.5
+                ],
+                "to": [
+                  14.5,
+                  18
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  16,
+                  21.5
+                ],
+                "to": [
+                  20.5,
+                  18
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  13.0,
+                  13.5
+                ],
+                "to": [
+                  17.5,
+                  10
+                ]
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  13.0,
+                  23.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  17.5
+                ],
+                "text": "8 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  19.0,
+                  15.75
+                ],
+                "text": "10 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  14.5,
+                  18.3
+                ],
+                "text": "V = 240 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-005",
+      "statement": "Calcula el volum d'un prisma triangular amb base triangular de base 10 cm i altura 6 cm, i profunditat 15 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          6,
+          8,
+          24.75,
+          16.25
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                16.75,
+                16
+              ],
+              [
+                26.75,
+                16
+              ],
+              [
+                21.75,
+                10
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                21.25
+              ],
+              [
+                20,
+                21.25
+              ],
+              [
+                15.0,
+                15.25
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              21.25
+            ],
+            "to": [
+              16.75,
+              16
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              20,
+              21.25
+            ],
+            "to": [
+              26.75,
+              16
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              15.0,
+              15.25
+            ],
+            "to": [
+              21.75,
+              10
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              15.0,
+              22.75
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              18.25
+            ],
+            "text": "6 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              24.125,
+              15.625
+            ],
+            "text": "15 cm",
+            "anchor": "start"
+          }
+        ]
+      },
+      "options": [
+        "$900\\ \\text{cm}^3$",
+        "$30\\ \\text{cm}^3$",
+        "$300\\ \\text{cm}^3$",
+        "$450\\ \\text{cm}^3$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea de la base triangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{base} = \\frac{10 \\times 6}{2} = 30\\ \\text{cm}^2"
+        },
+        {
+          "kind": "text",
+          "text": "El volum del prisma és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = A_{base} \\times \\text{prof.} = 30 \\times 15 = 450\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              6,
+              8,
+              24.75,
+              16.25
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    16.75,
+                    16
+                  ],
+                  [
+                    26.75,
+                    16
+                  ],
+                  [
+                    21.75,
+                    10
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    21.25
+                  ],
+                  [
+                    20,
+                    21.25
+                  ],
+                  [
+                    15.0,
+                    15.25
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  21.25
+                ],
+                "to": [
+                  16.75,
+                  16
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  20,
+                  21.25
+                ],
+                "to": [
+                  26.75,
+                  16
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  15.0,
+                  15.25
+                ],
+                "to": [
+                  21.75,
+                  10
+                ]
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  15.0,
+                  22.75
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  18.25
+                ],
+                "text": "6 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  24.125,
+                  15.625
+                ],
+                "text": "15 cm",
+                "anchor": "start"
+              },
+              {
+                "at": [
+                  17.25,
+                  18.85
+                ],
+                "text": "V = 450 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-006",
+      "statement": "Calcula el volum d'un cilindre de radi 5 cm i altura 10 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          21,
+          8,
+          18,
+          18.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                25,
+                11.5
+              ],
+              [
+                35,
+                11.5
+              ],
+              [
+                35,
+                21.5
+              ],
+              [
+                25,
+                21.5
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              21.5
+            ],
+            "r": 5,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              21.5
+            ],
+            "r": 5,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.5
+            ],
+            "r": 5,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.5
+            ],
+            "r": 5,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              25,
+              11.5
+            ],
+            "to": [
+              25,
+              21.5
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              35,
+              11.5
+            ],
+            "to": [
+              35,
+              21.5
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              11.5
+            ],
+            "to": [
+              35,
+              11.5
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.5,
+              10.0
+            ],
+            "text": "5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              23.5,
+              16.5
+            ],
+            "text": "10 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$100\\pi\\ \\text{cm}^3$",
+        "$250\\pi\\ \\text{cm}^3$",
+        "$50\\pi\\ \\text{cm}^3$",
+        "$785.4\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un cilindre és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi \\cdot 5^2 \\cdot 10 = 250\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              21,
+              8,
+              18,
+              18.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    25,
+                    11.5
+                  ],
+                  [
+                    35,
+                    11.5
+                  ],
+                  [
+                    35,
+                    21.5
+                  ],
+                  [
+                    25,
+                    21.5
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  21.5
+                ],
+                "r": 5,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  21.5
+                ],
+                "r": 5,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.5
+                ],
+                "r": 5,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.5
+                ],
+                "r": 5,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  25,
+                  11.5
+                ],
+                "to": [
+                  25,
+                  21.5
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  35,
+                  11.5
+                ],
+                "to": [
+                  35,
+                  21.5
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  11.5
+                ],
+                "to": [
+                  35,
+                  11.5
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.5,
+                  10.0
+                ],
+                "text": "5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  23.5,
+                  16.5
+                ],
+                "text": "10 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  30,
+                  16.5
+                ],
+                "text": "V = 250π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-007",
+      "statement": "Calcula el volum d'un cilindre de radi 3 cm i altura 14 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          23,
+          8,
+          14,
+          20.8
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                27,
+                10.9
+              ],
+              [
+                33,
+                10.9
+              ],
+              [
+                33,
+                24.9
+              ],
+              [
+                27,
+                24.9
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              24.9
+            ],
+            "r": 3,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              24.9
+            ],
+            "r": 3,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              10.9
+            ],
+            "r": 3,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              10.9
+            ],
+            "r": 3,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              27,
+              10.9
+            ],
+            "to": [
+              27,
+              24.9
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              33,
+              10.9
+            ],
+            "to": [
+              33,
+              24.9
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10.9
+            ],
+            "to": [
+              33,
+              10.9
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              31.5,
+              9.4
+            ],
+            "text": "3 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              25.5,
+              17.9
+            ],
+            "text": "14 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$126\\pi\\ \\text{cm}^3$",
+        "$42\\pi\\ \\text{cm}^3$",
+        "$102\\pi\\ \\text{cm}^3$",
+        "$252\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un cilindre és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi \\cdot 3^2 \\cdot 14 = 126\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              23,
+              8,
+              14,
+              20.8
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    27,
+                    10.9
+                  ],
+                  [
+                    33,
+                    10.9
+                  ],
+                  [
+                    33,
+                    24.9
+                  ],
+                  [
+                    27,
+                    24.9
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  24.9
+                ],
+                "r": 3,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  24.9
+                ],
+                "r": 3,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  10.9
+                ],
+                "r": 3,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  10.9
+                ],
+                "r": 3,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  27,
+                  10.9
+                ],
+                "to": [
+                  27,
+                  24.9
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  33,
+                  10.9
+                ],
+                "to": [
+                  33,
+                  24.9
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10.9
+                ],
+                "to": [
+                  33,
+                  10.9
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  31.5,
+                  9.4
+                ],
+                "text": "3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  25.5,
+                  17.9
+                ],
+                "text": "14 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  30,
+                  17.9
+                ],
+                "text": "V = 126π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-008",
+      "statement": "Calcula el volum d'un cilindre de diàmetre 12 cm i altura 7 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          20.0,
+          8,
+          20.0,
+          15.6
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                24.0,
+                11.8
+              ],
+              [
+                36.0,
+                11.8
+              ],
+              [
+                36.0,
+                18.8
+              ],
+              [
+                24.0,
+                18.8
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              18.8
+            ],
+            "r": 6.0,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              18.8
+            ],
+            "r": 6.0,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.8
+            ],
+            "r": 6.0,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.8
+            ],
+            "r": 6.0,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              24.0,
+              11.8
+            ],
+            "to": [
+              24.0,
+              18.8
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              36.0,
+              11.8
+            ],
+            "to": [
+              36.0,
+              18.8
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              24.0,
+              11.8
+            ],
+            "to": [
+              36.0,
+              11.8
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              30,
+              10.3
+            ],
+            "text": "d = 12 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              22.5,
+              15.3
+            ],
+            "text": "7 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$1008\\pi\\ \\text{cm}^3$",
+        "$42\\pi\\ \\text{cm}^3$",
+        "$252\\pi\\ \\text{cm}^3$",
+        "$84\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer trobem el radi:"
+        },
+        {
+          "kind": "math",
+          "tex": "r = \\frac{d}{2} = \\frac{12}{2} = 6\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El volum del cilindre és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi \\cdot 6^2 \\cdot 7 = 252\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              20.0,
+              8,
+              20.0,
+              15.6
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    24.0,
+                    11.8
+                  ],
+                  [
+                    36.0,
+                    11.8
+                  ],
+                  [
+                    36.0,
+                    18.8
+                  ],
+                  [
+                    24.0,
+                    18.8
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  18.8
+                ],
+                "r": 6.0,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  18.8
+                ],
+                "r": 6.0,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.8
+                ],
+                "r": 6.0,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.8
+                ],
+                "r": 6.0,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  24.0,
+                  11.8
+                ],
+                "to": [
+                  24.0,
+                  18.8
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  36.0,
+                  11.8
+                ],
+                "to": [
+                  36.0,
+                  18.8
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  11.8
+                ],
+                "to": [
+                  36.0,
+                  11.8
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  33.0,
+                  10.3
+                ],
+                "text": "r = 6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  22.5,
+                  15.3
+                ],
+                "text": "7 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  30,
+                  15.3
+                ],
+                "text": "V = 252π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-009",
+      "statement": "Calcula el volum d'un cilindre de radi 4 cm i altura 9 cm. Arrodoneix a les centèsimes.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          22,
+          8,
+          16,
+          16.4
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                26,
+                11.2
+              ],
+              [
+                34,
+                11.2
+              ],
+              [
+                34,
+                20.2
+              ],
+              [
+                26,
+                20.2
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              20.2
+            ],
+            "r": 4,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              20.2
+            ],
+            "r": 4,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.2
+            ],
+            "r": 4,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              11.2
+            ],
+            "r": 4,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              26,
+              11.2
+            ],
+            "to": [
+              26,
+              20.2
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              34,
+              11.2
+            ],
+            "to": [
+              34,
+              20.2
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              11.2
+            ],
+            "to": [
+              34,
+              11.2
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.0,
+              9.7
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              24.5,
+              15.7
+            ],
+            "text": "9 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$113.1\\ \\text{cm}^3$",
+        "$452.39\\ \\text{cm}^3$",
+        "$150.8\\ \\text{cm}^3$",
+        "$226.19\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un cilindre és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi \\cdot 4^2 \\cdot 9 = 144\\pi \\approx 452.39\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              22,
+              8,
+              16,
+              16.4
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    26,
+                    11.2
+                  ],
+                  [
+                    34,
+                    11.2
+                  ],
+                  [
+                    34,
+                    20.2
+                  ],
+                  [
+                    26,
+                    20.2
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  20.2
+                ],
+                "r": 4,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  20.2
+                ],
+                "r": 4,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.2
+                ],
+                "r": 4,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  11.2
+                ],
+                "r": 4,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  26,
+                  11.2
+                ],
+                "to": [
+                  26,
+                  20.2
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  34,
+                  11.2
+                ],
+                "to": [
+                  34,
+                  20.2
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  11.2
+                ],
+                "to": [
+                  34,
+                  11.2
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.0,
+                  9.7
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  24.5,
+                  15.7
+                ],
+                "text": "9 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  30,
+                  15.7
+                ],
+                "text": "V ≈ 452.39 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-010",
+      "statement": "Calcula el volum d'un cilindre de radi 7 cm i altura 5 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          19,
+          8,
+          22,
+          14.2
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                23,
+                12.1
+              ],
+              [
+                37,
+                12.1
+              ],
+              [
+                37,
+                17.1
+              ],
+              [
+                23,
+                17.1
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              17.1
+            ],
+            "r": 7,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              17.1
+            ],
+            "r": 7,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              12.1
+            ],
+            "r": 7,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              12.1
+            ],
+            "r": 7,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              23,
+              12.1
+            ],
+            "to": [
+              23,
+              17.1
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              37,
+              12.1
+            ],
+            "to": [
+              37,
+              17.1
+            ]
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              12.1
+            ],
+            "to": [
+              37,
+              12.1
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              33.5,
+              10.6
+            ],
+            "text": "7 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              21.5,
+              14.6
+            ],
+            "text": "5 cm",
+            "anchor": "end"
+          }
+        ]
+      },
+      "options": [
+        "$35\\pi\\ \\text{cm}^3$",
+        "$168\\pi\\ \\text{cm}^3$",
+        "$81\\pi\\ \\text{cm}^3$",
+        "$245\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un cilindre és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\pi \\cdot 7^2 \\cdot 5 = 245\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              19,
+              8,
+              22,
+              14.2
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    23,
+                    12.1
+                  ],
+                  [
+                    37,
+                    12.1
+                  ],
+                  [
+                    37,
+                    17.1
+                  ],
+                  [
+                    23,
+                    17.1
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  17.1
+                ],
+                "r": 7,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  17.1
+                ],
+                "r": 7,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  12.1
+                ],
+                "r": 7,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  12.1
+                ],
+                "r": 7,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  23,
+                  12.1
+                ],
+                "to": [
+                  23,
+                  17.1
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  37,
+                  12.1
+                ],
+                "to": [
+                  37,
+                  17.1
+                ]
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  12.1
+                ],
+                "to": [
+                  37,
+                  12.1
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  33.5,
+                  10.6
+                ],
+                "text": "7 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  21.5,
+                  14.6
+                ],
+                "text": "5 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  30,
+                  14.6
+                ],
+                "text": "V = 245π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-011",
+      "statement": "Calcula el volum d'una piràmide de base quadrada de costat 6 cm i altura 9 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          13.8,
+          15.2
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                20.2
+              ],
+              [
+                16,
+                20.2
+              ],
+              [
+                13.9,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                16,
+                20.2
+              ],
+              [
+                17.8,
+                19
+              ],
+              [
+                13.9,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                20.2
+              ],
+              [
+                16,
+                20.2
+              ],
+              [
+                17.8,
+                19
+              ],
+              [
+                11.8,
+                19
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              11.8,
+              19
+            ],
+            "to": [
+              13.9,
+              10
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              13.9,
+              10
+            ],
+            "to": [
+              13.9,
+              19.6
+            ],
+            "dashed": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              13.0,
+              21.7
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              15.4,
+              16.3
+            ],
+            "text": "9 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$108\\ \\text{cm}^3$",
+        "$324\\ \\text{cm}^3$",
+        "$18\\ \\text{cm}^3$",
+        "$162\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una piràmide és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot A_{base} \\cdot h"
+        },
+        {
+          "kind": "text",
+          "text": "L'àrea de la base quadrada és $6^2 = 36\\ \\text{cm}^2$."
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot 36 \\cdot 9 = 108\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              13.8,
+              15.2
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    20.2
+                  ],
+                  [
+                    16,
+                    20.2
+                  ],
+                  [
+                    13.9,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    16,
+                    20.2
+                  ],
+                  [
+                    17.8,
+                    19
+                  ],
+                  [
+                    13.9,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    20.2
+                  ],
+                  [
+                    16,
+                    20.2
+                  ],
+                  [
+                    17.8,
+                    19
+                  ],
+                  [
+                    11.8,
+                    19
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  11.8,
+                  19
+                ],
+                "to": [
+                  13.9,
+                  10
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  13.9,
+                  10
+                ],
+                "to": [
+                  13.9,
+                  19.6
+                ],
+                "dashed": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  13.0,
+                  21.7
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  15.4,
+                  16.3
+                ],
+                "text": "9 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  13.6,
+                  14.95
+                ],
+                "text": "V = 108 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-012",
+      "statement": "Calcula el volum d'una piràmide de base quadrada de costat 10 cm i altura 12 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          19.0,
+          19.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                24.0
+              ],
+              [
+                20,
+                24.0
+              ],
+              [
+                16.5,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                20,
+                24.0
+              ],
+              [
+                23.0,
+                22
+              ],
+              [
+                16.5,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                24.0
+              ],
+              [
+                20,
+                24.0
+              ],
+              [
+                23.0,
+                22
+              ],
+              [
+                13.0,
+                22
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              13.0,
+              22
+            ],
+            "to": [
+              16.5,
+              10
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              16.5,
+              10
+            ],
+            "to": [
+              16.5,
+              23.0
+            ],
+            "dashed": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              15.0,
+              25.5
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              18.0,
+              18.0
+            ],
+            "text": "12 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$1200\\ \\text{cm}^3$",
+        "$600\\ \\text{cm}^3$",
+        "$400\\ \\text{cm}^3$",
+        "$160\\ \\text{cm}^3$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una piràmide és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot A_{base} \\cdot h"
+        },
+        {
+          "kind": "text",
+          "text": "L'àrea de la base quadrada és $10^2 = 100\\ \\text{cm}^2$."
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot 100 \\cdot 12 = 400\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              19.0,
+              19.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    24.0
+                  ],
+                  [
+                    20,
+                    24.0
+                  ],
+                  [
+                    16.5,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    20,
+                    24.0
+                  ],
+                  [
+                    23.0,
+                    22
+                  ],
+                  [
+                    16.5,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    24.0
+                  ],
+                  [
+                    20,
+                    24.0
+                  ],
+                  [
+                    23.0,
+                    22
+                  ],
+                  [
+                    13.0,
+                    22
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  13.0,
+                  22
+                ],
+                "to": [
+                  16.5,
+                  10
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  16.5,
+                  10
+                ],
+                "to": [
+                  16.5,
+                  23.0
+                ],
+                "dashed": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  15.0,
+                  25.5
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  18.0,
+                  18.0
+                ],
+                "text": "12 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  16.0,
+                  16.6
+                ],
+                "text": "V = 400 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-013",
+      "statement": "Calcula el volum d'una piràmide de base quadrada de costat 8 cm i altura 15 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          7,
+          8,
+          16.4,
+          21.6
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                26.6
+              ],
+              [
+                18,
+                26.6
+              ],
+              [
+                15.2,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                18,
+                26.6
+              ],
+              [
+                20.4,
+                25
+              ],
+              [
+                15.2,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                26.6
+              ],
+              [
+                18,
+                26.6
+              ],
+              [
+                20.4,
+                25
+              ],
+              [
+                12.4,
+                25
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              12.4,
+              25
+            ],
+            "to": [
+              15.2,
+              10
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              15.2,
+              10
+            ],
+            "to": [
+              15.2,
+              25.8
+            ],
+            "dashed": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              14.0,
+              28.1
+            ],
+            "text": "8 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              16.7,
+              19.4
+            ],
+            "text": "15 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$960\\ \\text{cm}^3$",
+        "$320\\ \\text{cm}^3$",
+        "$120\\ \\text{cm}^3$",
+        "$160\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una piràmide és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot A_{base} \\cdot h"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{base} = 8^2 = 64\\ \\text{cm}^2"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot 64 \\cdot 15 = 320\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              7,
+              8,
+              16.4,
+              21.6
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    26.6
+                  ],
+                  [
+                    18,
+                    26.6
+                  ],
+                  [
+                    15.2,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    18,
+                    26.6
+                  ],
+                  [
+                    20.4,
+                    25
+                  ],
+                  [
+                    15.2,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    26.6
+                  ],
+                  [
+                    18,
+                    26.6
+                  ],
+                  [
+                    20.4,
+                    25
+                  ],
+                  [
+                    12.4,
+                    25
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  12.4,
+                  25
+                ],
+                "to": [
+                  15.2,
+                  10
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  15.2,
+                  10
+                ],
+                "to": [
+                  15.2,
+                  25.8
+                ],
+                "dashed": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  14.0,
+                  28.1
+                ],
+                "text": "8 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  16.7,
+                  19.4
+                ],
+                "text": "15 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  14.8,
+                  18.25
+                ],
+                "text": "V = 320 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-014",
+      "statement": "Calcula el volum d'una piràmide de base triangular (base 6 cm, altura del triangle 8 cm) i altura de la piràmide 12 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          6,
+          8,
+          15.5,
+          18.08
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                23.08
+              ],
+              [
+                16,
+                23.08
+              ],
+              [
+                14.5,
+                22
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                23.08
+              ],
+              [
+                16,
+                23.08
+              ],
+              [
+                13.75,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                16,
+                23.08
+              ],
+              [
+                14.5,
+                22
+              ],
+              [
+                13.75,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              23.08
+            ],
+            "to": [
+              14.5,
+              22
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              14.5,
+              22
+            ],
+            "to": [
+              13.75,
+              10
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              13.75,
+              10
+            ],
+            "to": [
+              13.5,
+              22.72
+            ],
+            "dashed": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              13.0,
+              24.58
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              22.54
+            ],
+            "text": "8 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              15.0,
+              17.86
+            ],
+            "text": "12 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$192\\ \\text{cm}^3$",
+        "$288\\ \\text{cm}^3$",
+        "$576\\ \\text{cm}^3$",
+        "$96\\ \\text{cm}^3$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea de la base triangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{base} = \\frac{6 \\times 8}{2} = 24\\ \\text{cm}^2"
+        },
+        {
+          "kind": "text",
+          "text": "El volum de la piràmide és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot A_{base} \\cdot h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot 24 \\cdot 12 = 96\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              6,
+              8,
+              15.5,
+              18.08
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    23.08
+                  ],
+                  [
+                    16,
+                    23.08
+                  ],
+                  [
+                    14.5,
+                    22
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    23.08
+                  ],
+                  [
+                    16,
+                    23.08
+                  ],
+                  [
+                    13.75,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    16,
+                    23.08
+                  ],
+                  [
+                    14.5,
+                    22
+                  ],
+                  [
+                    13.75,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  23.08
+                ],
+                "to": [
+                  14.5,
+                  22
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  14.5,
+                  22
+                ],
+                "to": [
+                  13.75,
+                  10
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  13.75,
+                  10
+                ],
+                "to": [
+                  13.5,
+                  22.72
+                ],
+                "dashed": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  13.0,
+                  24.58
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  22.54
+                ],
+                "text": "8 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  15.0,
+                  17.86
+                ],
+                "text": "12 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  13.5,
+                  16.6
+                ],
+                "text": "V = 96 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-015",
+      "statement": "Calcula el volum d'una piràmide de base triangular (base 10 cm, altura del triangle 5 cm) i altura de la piràmide 9 cm.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          6,
+          8,
+          20.5,
+          15.8
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                20.8
+              ],
+              [
+                20,
+                20.8
+              ],
+              [
+                17.5,
+                19
+              ]
+            ],
+            "dashed": true,
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                10,
+                20.8
+              ],
+              [
+                20,
+                20.8
+              ],
+              [
+                16.25,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "polygon",
+            "points": [
+              [
+                20,
+                20.8
+              ],
+              [
+                17.5,
+                19
+              ],
+              [
+                16.25,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "line",
+            "from": [
+              10,
+              20.8
+            ],
+            "to": [
+              17.5,
+              19
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              17.5,
+              19
+            ],
+            "to": [
+              16.25,
+              10
+            ],
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              16.25,
+              10
+            ],
+            "to": [
+              15.833,
+              20.2
+            ],
+            "dashed": true,
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              15.0,
+              22.3
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              8.5,
+              19.9
+            ],
+            "text": "5 cm",
+            "anchor": "end"
+          },
+          {
+            "at": [
+              17.333,
+              16.6
+            ],
+            "text": "9 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$75\\ \\text{cm}^3$",
+        "$150\\ \\text{cm}^3$",
+        "$225\\ \\text{cm}^3$",
+        "$450\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "L'àrea de la base triangular és:"
+        },
+        {
+          "kind": "math",
+          "tex": "A_{base} = \\frac{10 \\times 5}{2} = 25\\ \\text{cm}^2"
+        },
+        {
+          "kind": "text",
+          "text": "El volum de la piràmide és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot A_{base} \\cdot h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot 25 \\cdot 9 = 75\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              6,
+              8,
+              20.5,
+              15.8
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    20.8
+                  ],
+                  [
+                    20,
+                    20.8
+                  ],
+                  [
+                    17.5,
+                    19
+                  ]
+                ],
+                "dashed": true,
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    10,
+                    20.8
+                  ],
+                  [
+                    20,
+                    20.8
+                  ],
+                  [
+                    16.25,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    20,
+                    20.8
+                  ],
+                  [
+                    17.5,
+                    19
+                  ],
+                  [
+                    16.25,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  10,
+                  20.8
+                ],
+                "to": [
+                  17.5,
+                  19
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  17.5,
+                  19
+                ],
+                "to": [
+                  16.25,
+                  10
+                ],
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  16.25,
+                  10
+                ],
+                "to": [
+                  15.833,
+                  20.2
+                ],
+                "dashed": true,
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  15.0,
+                  22.3
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  8.5,
+                  19.9
+                ],
+                "text": "5 cm",
+                "anchor": "end"
+              },
+              {
+                "at": [
+                  17.333,
+                  16.6
+                ],
+                "text": "9 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  15.833,
+                  14.95
+                ],
+                "text": "V = 75 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-016",
+      "statement": "Calcula el volum d'un con de radi 4 cm i altura 9 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          23,
+          8,
+          14,
+          15.0
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                26,
+                19
+              ],
+              [
+                34,
+                19
+              ],
+              [
+                30,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              19
+            ],
+            "r": 4,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              19
+            ],
+            "r": 4,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10
+            ],
+            "to": [
+              30,
+              19
+            ],
+            "dashed": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              19
+            ],
+            "to": [
+              34,
+              19
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.0,
+              21.5
+            ],
+            "text": "4 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              31.5,
+              14.5
+            ],
+            "text": "9 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$48\\pi\\ \\text{cm}^3$",
+        "$144\\pi\\ \\text{cm}^3$",
+        "$36\\pi\\ \\text{cm}^3$",
+        "$72\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un con és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot \\pi \\cdot 4^2 \\cdot 9 = 48\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              23,
+              8,
+              14,
+              15.0
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    26,
+                    19
+                  ],
+                  [
+                    34,
+                    19
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  19
+                ],
+                "r": 4,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  19
+                ],
+                "r": 4,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10
+                ],
+                "to": [
+                  30,
+                  19
+                ],
+                "dashed": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  19
+                ],
+                "to": [
+                  34,
+                  19
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.0,
+                  21.5
+                ],
+                "text": "4 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  31.5,
+                  14.5
+                ],
+                "text": "9 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  30,
+                  14.5
+                ],
+                "text": "V = 48π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-017",
+      "statement": "Calcula el volum d'un con de radi 6 cm i altura 10 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          21,
+          8,
+          18,
+          16.5
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                24,
+                20
+              ],
+              [
+                36,
+                20
+              ],
+              [
+                30,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              20
+            ],
+            "r": 6,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              20
+            ],
+            "r": 6,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10
+            ],
+            "to": [
+              30,
+              20
+            ],
+            "dashed": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              20
+            ],
+            "to": [
+              36,
+              20
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              33.0,
+              23.0
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              31.5,
+              15.0
+            ],
+            "text": "10 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$360\\pi\\ \\text{cm}^3$",
+        "$120\\pi\\ \\text{cm}^3$",
+        "$240\\pi\\ \\text{cm}^3$",
+        "$60\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un con és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot \\pi \\cdot 6^2 \\cdot 10 = 120\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              21,
+              8,
+              18,
+              16.5
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    24,
+                    20
+                  ],
+                  [
+                    36,
+                    20
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  20
+                ],
+                "r": 6,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  20
+                ],
+                "r": 6,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10
+                ],
+                "to": [
+                  30,
+                  20
+                ],
+                "dashed": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  20
+                ],
+                "to": [
+                  36,
+                  20
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  33.0,
+                  23.0
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  31.5,
+                  15.0
+                ],
+                "text": "10 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  30,
+                  15.0
+                ],
+                "text": "V = 120π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-018",
+      "statement": "Calcula el volum d'un con de diàmetre 10 cm i altura 12 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          22.0,
+          8,
+          16.0,
+          18.25
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                25.0,
+                22
+              ],
+              [
+                35.0,
+                22
+              ],
+              [
+                30,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              22
+            ],
+            "r": 5.0,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              22
+            ],
+            "r": 5.0,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10
+            ],
+            "to": [
+              30,
+              22
+            ],
+            "dashed": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              22
+            ],
+            "to": [
+              35.0,
+              22
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.5,
+              24.75
+            ],
+            "text": "d = 10 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              31.5,
+              16.0
+            ],
+            "text": "12 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$400\\pi\\ \\text{cm}^3$",
+        "$300\\pi\\ \\text{cm}^3$",
+        "$100\\pi\\ \\text{cm}^3$",
+        "$60\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer trobem el radi:"
+        },
+        {
+          "kind": "math",
+          "tex": "r = \\frac{d}{2} = \\frac{10}{2} = 5\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El volum del con és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot \\pi \\cdot 5^2 \\cdot 12 = 100\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              22.0,
+              8,
+              16.0,
+              18.25
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    25.0,
+                    22
+                  ],
+                  [
+                    35.0,
+                    22
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  22
+                ],
+                "r": 5.0,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  22
+                ],
+                "r": 5.0,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10
+                ],
+                "to": [
+                  30,
+                  22
+                ],
+                "dashed": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  22
+                ],
+                "to": [
+                  35.0,
+                  22
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.5,
+                  24.75
+                ],
+                "text": "r = 5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  31.5,
+                  16.0
+                ],
+                "text": "12 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  30,
+                  16.0
+                ],
+                "text": "V = 100π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-019",
+      "statement": "Calcula el volum d'un con de radi 3 cm i altura 8 cm. Arrodoneix a les centèsimes.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          24,
+          8,
+          12,
+          13.75
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                27,
+                18
+              ],
+              [
+                33,
+                18
+              ],
+              [
+                30,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              18
+            ],
+            "r": 3,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              18
+            ],
+            "r": 3,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10
+            ],
+            "to": [
+              30,
+              18
+            ],
+            "dashed": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              18
+            ],
+            "to": [
+              33,
+              18
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              31.5,
+              20.25
+            ],
+            "text": "3 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              31.5,
+              14.0
+            ],
+            "text": "8 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$226.19\\ \\text{cm}^3$",
+        "$113.1\\ \\text{cm}^3$",
+        "$150.8\\ \\text{cm}^3$",
+        "$75.4\\ \\text{cm}^3$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un con és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot \\pi \\cdot 3^2 \\cdot 8 = 24\\pi \\approx 75.4\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              24,
+              8,
+              12,
+              13.75
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    27,
+                    18
+                  ],
+                  [
+                    33,
+                    18
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  18
+                ],
+                "r": 3,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  18
+                ],
+                "r": 3,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10
+                ],
+                "to": [
+                  30,
+                  18
+                ],
+                "dashed": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  18
+                ],
+                "to": [
+                  33,
+                  18
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  31.5,
+                  20.25
+                ],
+                "text": "3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  31.5,
+                  14.0
+                ],
+                "text": "8 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  30,
+                  14.0
+                ],
+                "text": "V ≈ 75.4 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-020",
+      "statement": "Calcula el volum d'un con de radi 5 cm i altura 15 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          22,
+          8,
+          16,
+          21.25
+        ],
+        "shapes": [
+          {
+            "type": "polygon",
+            "points": [
+              [
+                25,
+                25
+              ],
+              [
+                35,
+                25
+              ],
+              [
+                30,
+                10
+              ]
+            ],
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              25
+            ],
+            "r": 5,
+            "fromDeg": 0,
+            "toDeg": 180
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              25
+            ],
+            "r": 5,
+            "fromDeg": 180,
+            "toDeg": 360,
+            "dashed": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              10
+            ],
+            "to": [
+              30,
+              25
+            ],
+            "dashed": true,
+            "highlight": true
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              25
+            ],
+            "to": [
+              35,
+              25
+            ],
+            "dashed": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              32.5,
+              27.75
+            ],
+            "text": "5 cm",
+            "anchor": "middle"
+          },
+          {
+            "at": [
+              31.5,
+              17.5
+            ],
+            "text": "15 cm",
+            "anchor": "start",
+            "color": "highlight"
+          }
+        ]
+      },
+      "options": [
+        "$125\\pi\\ \\text{cm}^3$",
+        "$375\\pi\\ \\text{cm}^3$",
+        "$166\\pi\\ \\text{cm}^3$",
+        "$75\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'un con és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\pi r^2 h"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{1}{3} \\cdot \\pi \\cdot 5^2 \\cdot 15 = 125\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              22,
+              8,
+              16,
+              21.25
+            ],
+            "shapes": [
+              {
+                "type": "polygon",
+                "points": [
+                  [
+                    25,
+                    25
+                  ],
+                  [
+                    35,
+                    25
+                  ],
+                  [
+                    30,
+                    10
+                  ]
+                ],
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  25
+                ],
+                "r": 5,
+                "fromDeg": 0,
+                "toDeg": 180
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  25
+                ],
+                "r": 5,
+                "fromDeg": 180,
+                "toDeg": 360,
+                "dashed": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  10
+                ],
+                "to": [
+                  30,
+                  25
+                ],
+                "dashed": true,
+                "highlight": true
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  25
+                ],
+                "to": [
+                  35,
+                  25
+                ],
+                "dashed": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  32.5,
+                  27.75
+                ],
+                "text": "5 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  31.5,
+                  17.5
+                ],
+                "text": "15 cm",
+                "anchor": "start",
+                "color": "highlight"
+              },
+              {
+                "at": [
+                  30,
+                  17.5
+                ],
+                "text": "V = 125π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-021",
+      "statement": "Calcula el volum d'una esfera de radi 6 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          21,
+          21,
+          18,
+          18
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 6,
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 6,
+            "fromDeg": 0,
+            "toDeg": 180,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 6,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              36,
+              30
+            ],
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              33.0,
+              29.1
+            ],
+            "text": "6 cm",
+            "anchor": "middle"
+          }
+        ]
+      },
+      "options": [
+        "$144\\pi\\ \\text{cm}^3$",
+        "$288\\pi\\ \\text{cm}^3$",
+        "$216\\pi\\ \\text{cm}^3$",
+        "$864\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una esfera és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\pi r^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\cdot \\pi \\cdot 6^3 = 288\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              21,
+              21,
+              18,
+              18
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 6,
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 6,
+                "fromDeg": 0,
+                "toDeg": 180,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 6,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  36,
+                  30
+                ],
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  33.0,
+                  29.1
+                ],
+                "text": "6 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  32.7
+                ],
+                "text": "V = 288π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-022",
+      "statement": "Calcula el volum d'una esfera de radi 9 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          18,
+          18,
+          24,
+          24
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 9,
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 9,
+            "fromDeg": 0,
+            "toDeg": 180,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 9,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              39,
+              30
+            ],
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              34.5,
+              28.65
+            ],
+            "text": "9 cm",
+            "anchor": "middle"
+          }
+        ]
+      },
+      "options": [
+        "$972\\pi\\ \\text{cm}^3$",
+        "$324\\pi\\ \\text{cm}^3$",
+        "$243\\pi\\ \\text{cm}^3$",
+        "$2916\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 0,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una esfera és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\pi r^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\cdot \\pi \\cdot 9^3 = 972\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              18,
+              18,
+              24,
+              24
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 9,
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 9,
+                "fromDeg": 0,
+                "toDeg": 180,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 9,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  39,
+                  30
+                ],
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  34.5,
+                  28.65
+                ],
+                "text": "9 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  34.05
+                ],
+                "text": "V = 972π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-023",
+      "statement": "Calcula el volum d'una esfera de diàmetre 14 cm. Arrodoneix a les centèsimes.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 7.0,
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 7.0,
+            "fromDeg": 0,
+            "toDeg": 180,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 7.0,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              37.0,
+              30
+            ],
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              33.5,
+              28.95
+            ],
+            "text": "d = 14 cm",
+            "anchor": "middle"
+          }
+        ]
+      },
+      "options": [
+        "$11494.04\\ \\text{cm}^3$",
+        "$1077.57\\ \\text{cm}^3$",
+        "$1436.76\\ \\text{cm}^3$",
+        "$615.75\\ \\text{cm}^3$"
+      ],
+      "correct": 2,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "Primer trobem el radi:"
+        },
+        {
+          "kind": "math",
+          "tex": "r = \\frac{d}{2} = \\frac{14}{2} = 7\\ \\text{cm}"
+        },
+        {
+          "kind": "text",
+          "text": "El volum de l'esfera és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\pi r^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\cdot \\pi \\cdot 7^3 = \\frac{1372}{3}\\pi \\approx 1436.76\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              20.0,
+              20.0,
+              20.0,
+              20.0
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 7.0,
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 7.0,
+                "fromDeg": 0,
+                "toDeg": 180,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 7.0,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  37.0,
+                  30
+                ],
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  33.5,
+                  28.95
+                ],
+                "text": "r = 7 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  33.15
+                ],
+                "text": "V ≈ 1436.76 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-024",
+      "statement": "Calcula el volum d'una esfera de radi 3 cm. Arrodoneix a les centèsimes.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          24,
+          24,
+          12,
+          12
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 3,
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 3,
+            "fromDeg": 0,
+            "toDeg": 180,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 3,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              33,
+              30
+            ],
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              31.5,
+              29.55
+            ],
+            "text": "3 cm",
+            "anchor": "middle"
+          }
+        ]
+      },
+      "options": [
+        "$84.82\\ \\text{cm}^3$",
+        "$37.7\\ \\text{cm}^3$",
+        "$339.29\\ \\text{cm}^3$",
+        "$113.1\\ \\text{cm}^3$"
+      ],
+      "correct": 3,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una esfera és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\pi r^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\cdot \\pi \\cdot 3^3 = 36\\pi \\approx 113.1\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              24,
+              24,
+              12,
+              12
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 3,
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 3,
+                "fromDeg": 0,
+                "toDeg": 180,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 3,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  33,
+                  30
+                ],
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  31.5,
+                  29.55
+                ],
+                "text": "3 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  31.35
+                ],
+                "text": "V ≈ 113.1 cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vol-025",
+      "statement": "Calcula el volum d'una esfera de radi 10 cm. Expressa el resultat en funció de $\\pi$.",
+      "graphic": {
+        "kind": "shape-plot",
+        "viewBox": [
+          17,
+          17,
+          26,
+          26
+        ],
+        "shapes": [
+          {
+            "type": "circle",
+            "center": [
+              30,
+              30
+            ],
+            "r": 10,
+            "filled": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 10,
+            "fromDeg": 0,
+            "toDeg": 180,
+            "dashed": true
+          },
+          {
+            "type": "arc",
+            "center": [
+              30,
+              30
+            ],
+            "r": 10,
+            "fromDeg": 180,
+            "toDeg": 360
+          },
+          {
+            "type": "line",
+            "from": [
+              30,
+              30
+            ],
+            "to": [
+              40,
+              30
+            ],
+            "highlight": true
+          }
+        ],
+        "labels": [
+          {
+            "at": [
+              35.0,
+              28.5
+            ],
+            "text": "10 cm",
+            "anchor": "middle"
+          }
+        ]
+      },
+      "options": [
+        "$400\\pi\\ \\text{cm}^3$",
+        "$\\frac{4000}{3}\\pi\\ \\text{cm}^3$",
+        "$1000\\pi\\ \\text{cm}^3$",
+        "$4000\\pi\\ \\text{cm}^3$"
+      ],
+      "correct": 1,
+      "resolution": [
+        {
+          "kind": "text",
+          "text": "El volum d'una esfera és:"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\pi r^3"
+        },
+        {
+          "kind": "math",
+          "tex": "V = \\frac{4}{3} \\cdot \\pi \\cdot 10^3 = \\frac{4000}{3}\\pi\\ \\text{cm}^3"
+        },
+        {
+          "kind": "graphic",
+          "graphic": {
+            "kind": "shape-plot",
+            "viewBox": [
+              17,
+              17,
+              26,
+              26
+            ],
+            "shapes": [
+              {
+                "type": "circle",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 10,
+                "filled": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 10,
+                "fromDeg": 0,
+                "toDeg": 180,
+                "dashed": true
+              },
+              {
+                "type": "arc",
+                "center": [
+                  30,
+                  30
+                ],
+                "r": 10,
+                "fromDeg": 180,
+                "toDeg": 360
+              },
+              {
+                "type": "line",
+                "from": [
+                  30,
+                  30
+                ],
+                "to": [
+                  40,
+                  30
+                ],
+                "highlight": true
+              }
+            ],
+            "labels": [
+              {
+                "at": [
+                  35.0,
+                  28.5
+                ],
+                "text": "10 cm",
+                "anchor": "middle"
+              },
+              {
+                "at": [
+                  30,
+                  34.5
+                ],
+                "text": "V = \\frac{4000}{3}π cm³",
+                "anchor": "middle",
+                "color": "highlight",
+                "bold": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

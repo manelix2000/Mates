@@ -131,7 +131,7 @@ Toda la aplicación sigue un **formato uniforme** para cualquier tema existente 
   Si se elimina una pregunta del JSON, su ID en el progreso se ignora silenciosamente.
 
 ## Alcance actual
-La app incluye 6 temas publicados, todos con el mismo formato (25 preguntas × 4 opciones):
+La app incluye 7 temas publicados, todos con el mismo formato (25 preguntas × 4 opciones):
 
 1. **Vectors — construcció gràfica (suma i resta).** Dado un plano con AB y CD sobre una
    cuadrícula, el alumno aplica la regla del triángulo o del paralelogramo y determina a qué
@@ -153,6 +153,11 @@ La app incluye 6 temas publicados, todos con el mismo formato (25 preguntas × 4
    L formada por dos rectángulos, placa con agujero circular, trapecio sobre rectángulo,
    etc.). Cada pregunta muestra la figura con los datos en el enunciado y, al resolver,
    la misma figura con el resultado final marcado.
+7. **Volums de cossos geomètrics.** Cálculo del volumen de cuerpos 3D: **prisma rectangular,
+   prisma triangular, cilindro, pirámide (base cuadrada y triangular), cono y esfera.**
+   Cada pregunta incluye un esquema 2D del cuerpo con las dimensiones señaladas (usando
+   `shape-plot`). Las respuestas exactas se expresan en forma `Nπ cm³` cuando corresponde
+   o como valor decimal redondeado. 5 preguntas por cada tipo de cuerpo.
 
 Distractores pedagógicos comunes:
 - Vectores: confundir suma con resta, invertir el orden de la diferencia, olvidar trasladar
@@ -162,6 +167,9 @@ Distractores pedagógicos comunes:
   con hipotenusa, usar proyección como catete.
 - Trigonometria aplicada: usar `sin` donde toca `cos` (y viceversa), confundir ángulo de
   elevación con el complementario, dividir en lugar de multiplicar.
+- Volúmenes: confundir volumen con área superficial, olvidar el factor `1/3` en pirámides
+  y conos, olvidar `4/3` en esferas, usar diámetro como radio, olvidar dividir por 2
+  la base triangular.
 
 ## Fuera de alcance (por ahora)
 - Autenticación, perfiles, sincronización por usuario (el progreso es global compartido).

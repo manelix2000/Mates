@@ -226,7 +226,8 @@ mantener proporciones independientes del zoom.
    │     ├─ vectors-endpoints.json
    │     ├─ right-triangles-theorems.json
    │     ├─ applied-right-triangles.json
-   │     └─ shapes-perimeter-area.json
+   │     ├─ shapes-perimeter-area.json
+   │     └─ volumes.json
    ├─ server/
    │  ├─ index.mjs            (Express: API + estático)
    │  └─ data/

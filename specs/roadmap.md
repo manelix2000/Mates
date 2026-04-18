@@ -55,7 +55,7 @@ No se incluyen estimaciones temporales.
 - [x] Convención: cada tema con incógnitas geométricas cierra la resolución con
       un gráfico final con todos los valores resueltos.
 
-## Fase 5 — Contenido (6 temas publicados, 25 preguntas × 4 opciones)
+## Fase 5 — Contenido (7 temas publicados, 25 preguntas × 4 opciones)
 - [x] `vectors-graphic.json` — construcció gràfica (suma i resta).
 - [x] `vectors-compute.json` — suma i resta (càlcul).
 - [x] `vectors-endpoints.json` — coordenades d'un extrem (A o B).
@@ -67,6 +67,8 @@ No se incluyen estimaciones temporales.
 - [x] `shapes-perimeter-area.json` — perímetros y áreas de figuras básicas
       (cuadrado, rectángulo, triángulo rectángulo, trapecio, círculo) y
       **figuras compuestas** por dos figuras básicas.
+- [x] `volumes.json` — volúmenes de cuerpos geométricos (prisma rectangular,
+      prisma triangular, cilindro, pirámide, cono, esfera) con esquemas 2D.
 - [x] Generadores Python en `scripts/` para regenerar cada tema con
       validaciones (25 preguntas, 4 opciones únicas, índice correcto).
 
